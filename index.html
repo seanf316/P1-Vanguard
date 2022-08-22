@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,9 +10,42 @@
     <meta name="keywords"
         content="destiny, titan, hunter, warlock, vanguard, destiny best sites, destiny best apps, companion" />
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Vanguard</title>
 </head>
+
 <body>
-    
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="logo"><img src="assets/images/logo.png" alt=""></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link active-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Best Sites</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Best Apps</a></li>
+                <li class="nav-item"><a href="#" class="nav-link cta">Join Us</a></li>
+            </ul>
+            <!-- Hamburger Menu deisgned using https://dev.to/ guide-->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener("click", mobileMenu);
+
+        function mobileMenu() {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        }
+    </script>
 </body>
+
 </html>
