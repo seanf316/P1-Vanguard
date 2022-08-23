@@ -184,6 +184,7 @@ header {
 
 
 /* Media Query for Tablet screen down to Mobile*/
+
 @media only screen and (max-width: 1080px) {
 
     /* Header Tablet */
@@ -210,6 +211,7 @@ header {
 
     .hamburger {
         display: block;
+        margin-right: 1rem;
         cursor: pointer;
     }
 
@@ -259,6 +261,47 @@ header {
 
 }
 
+/* Media Query for Mobile*/
+
+@media only screen and (max-width: 700px) and (orientation: landscape) {
+    .navbar {
+        background-color: black;
+    }
+
+    .nav-item {
+        margin: 1rem 0;
+    }
+
+    /* Homepage */
+
+    .home-content {
+        width: max-content;
+        color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 4rem auto;
+    }
+
+    .home-content h1 {
+        font-size: 2.2rem;
+        transition: ease all 1s;
+    }
+
+    .line {
+        width: 20rem;
+        height: .25rem;
+        background-color: #42b41c;
+        margin: .5rem auto;
+    }
+
+    .home-content h2 {
+        font-size: 1.8rem;
+        margin-bottom: .8em;
+        transition: ease all 1s;
+    }
+}
+
 @media only screen and (max-width: 650px) {
 
     .navbar {
@@ -286,6 +329,7 @@ header {
 
     .hamburger {
         display: block;
+        margin-right: 1rem;
         cursor: pointer;
     }
 
@@ -310,7 +354,7 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 20rem auto;
+        margin: 25rem auto;
     }
 
     .home-content h1 {
@@ -327,7 +371,7 @@ header {
 
     .home-content h2 {
         font-size: 1.8rem;
-        margin-bottom: .8em;
+        margin-bottom: .4em;
         transition: ease all 1s;
     }
 
