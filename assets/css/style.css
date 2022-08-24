@@ -176,8 +176,7 @@ header {
 
 .grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-template-rows: minmax(50px, auto) 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
     gap: 2rem;
     padding: 1rem 1rem 6rem 1rem;
 }
@@ -235,19 +234,28 @@ header {
 
 /* About Destiny */
 
+.about-destiny {
+    background-color: #0e2207;
+}
+
 .about-destiny-content {
-    padding: 0 1rem 1rem 1rem;
+    padding: 6rem 1rem 1rem 1rem;
+    color: whitesmoke;
+}
+
+.about-destiny p {
+    color: whitesmoke;
 }
 
 .about-destiny h1 {
-    color: #407e2b;
+    color: #42b41c;
     line-height: 4rem;
     font-size: 4rem;
     margin-bottom: 1rem;
 }
 
 .about-destiny h2 {
-    color: #407e2b;
+    color: #42b41c;
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: 1rem;
@@ -348,6 +356,9 @@ header {
         margin-bottom: 0.8em;
         transition: ease all 1s;
     }
+
+    /* About Vanguard/Destiny */
+
 }
 
 /* Media Query for Mobile*/
@@ -463,6 +474,14 @@ header {
     }
 
     /* About Vanguard */
+
+    .grid-wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-rows: minmax(50px, auto) 1fr;
+        gap: 2rem;
+        padding: 1rem 1rem 6rem 1rem;
+    }
 
     .van-content h1 {
         line-height: 3rem;
