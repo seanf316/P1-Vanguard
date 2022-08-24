@@ -19,6 +19,10 @@ h3 {
     font-family: "Exo 2", sans-serif;
 }
 
+p {
+    color: #525252;
+}
+
 li {
     list-style: none;
 }
@@ -55,6 +59,11 @@ img {
     border-radius: 2rem;
     font-weight: bold;
     color: #42b41c !important;
+}
+
+.container {
+    width: 96%;
+    margin: 0 auto;
 }
 
 /* Header*/
@@ -147,18 +156,10 @@ header {
 .home-content h2 {
     font-size: 2.2rem;
     margin-bottom: 0.8em;
+    color: whitesmoke;
 }
 
-/* About Van */
-
-#about-van {
-    background-color: rgb(0, 0, 0);
-}
-
-.container {
-    width: 90%;
-    margin: 0 auto;
-}
+/* About Vangaurd */
 
 .van-content {
     padding: 6rem 1rem 1rem 1rem;
@@ -169,13 +170,14 @@ header {
 .van-content h1 {
     line-height: 4rem;
     font-size: 4rem;
-    color: #42b41c;
     margin-bottom: 1rem;
+    color: #2e7e13;
 }
 
 .grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: minmax(50px, auto) 1fr;
     gap: 2rem;
     padding: 1rem 1rem 6rem 1rem;
 }
@@ -196,10 +198,9 @@ header {
     text-align: center;
     padding: 1rem;
     height: 300px;
-    color: #42b41c;
-    border: 3px solid whitesmoke;
     border-radius: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.473) 0px 5px 15px;
 }
 
 .grid-box i {
@@ -208,7 +209,55 @@ header {
     margin-bottom: 1rem;
 }
 
+.weapons {
+    background: #f46b45;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+.armour {
+    background: #525252;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3d72b4, #525252);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3d72b4, #525252); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.seals {
+    background: #7b4397;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cosmetics {
+    background: #00bf8f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* About Destiny */
+
+.about-destiny-content {
+    padding: 0 1rem 1rem 1rem;
+}
+
+.about-destiny h1 {
+    color: #407e2b;
+    line-height: 4rem;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.about-destiny h2 {
+    color: #407e2b;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.about-destiny iframe {
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.473) 0px 5px 15px;
+}
 
 
 
@@ -230,7 +279,7 @@ header {
 
 /* Media Query for Tablet screen down to Mobile*/
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1100px) {
     /* Header Tablet */
 
     /* Navbar */
@@ -396,7 +445,7 @@ header {
     }
 
     .home-content h1 {
-        font-size: 2.2rem;
+        font-size: 2rem;
         transition: ease all 1s;
     }
 
@@ -408,7 +457,7 @@ header {
     }
 
     .home-content h2 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         margin-bottom: 0.4em;
         transition: ease all 1s;
     }
@@ -418,7 +467,16 @@ header {
     .van-content h1 {
         line-height: 3rem;
         font-size: 3rem;
-        color: #42b41c;
+        color: #407e2b;
+        margin-bottom: 1rem;
+    }
+
+    /* About Destiny */
+
+    .about-destiny h1 {
+        color: #407e2b;
+        line-height: 3rem;
+        font-size: 3rem;
         margin-bottom: 1rem;
     }
 }
