@@ -171,7 +171,7 @@ header {
     line-height: 4rem;
     font-size: 4rem;
     margin-bottom: 1rem;
-    color: #42B41C;
+    color:  #1b6400;
 }
 
 .grid-wrapper {
@@ -209,15 +209,15 @@ header {
 }
 
 .weapons {
-    background: #f46b45;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
 
 .armour {
-    background: #525252;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3d72b4, #525252);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3d72b4, #525252); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #396afc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .seals {
@@ -275,7 +275,7 @@ header {
 }
 
 #best-sites h1 {
-    color: #42b41c;
+    color:  #1b6400;
     line-height: 4rem;
     font-size: 4rem;
     margin-bottom: 1rem;
@@ -317,13 +317,13 @@ header {
 #best-sites h2 {
     margin-top: 1rem;
     font-size: 2rem;
-    color: #42B41C;
+    color:  #1b6400;
     text-align: center;
 }
 
 .card p {
     padding: 1rem;
-    font-size: .9rem;
+    font-size: 1rem;
     text-align: justify;
 }
 
@@ -341,9 +341,9 @@ header {
     margin-top: auto;
     width: 100%;
     padding: 1.5rem 0 1rem 0;
-    background: #f46b45;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     text-align: center;
     border-bottom-left-radius: .7rem;
     border-bottom-right-radius: .7rem;
@@ -354,9 +354,9 @@ header {
     margin-top: auto;
     width: 100%;
     padding: 1.5rem 0 1rem 0;
-    background: #525252;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3d72b4, #525252);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3d72b4, #525252); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #396afc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
     border-bottom-left-radius: .7rem;
     border-bottom-right-radius: .7rem;
@@ -400,16 +400,135 @@ header {
     border: 2px solid rgb(0, 0, 0);
 }
 
+.hon-mention {
+    padding-bottom: 3rem;
+}
+
 .hon-mention h3 {
     font-size: 1.5rem;
     margin-bottom: .5rem;
-    color: #42B41C;
+    color:  #1b6400;
 }
 
 .hon-mention p {
     margin-bottom: 1rem;
 }
 
+/* Best Apps */
+
+#best-apps {
+    padding: 6rem 1rem 1rem 1rem;
+    background-color: #0e2207;
+}
+
+#best-apps h1 {
+    color: #42b41c;
+    line-height: 4rem;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+#best-apps p {
+    color: whitesmoke;
+    text-align: justify;
+}
+
+.app-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 90%;
+    flex-grow: 1;
+    height: auto;
+    justify-content: center;
+    text-align: justify;
+    /* align-items: center; */
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 3px solid whitesmoke;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.bg-1 {
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+.bg-2 {
+    background: #396afc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-3 {
+    background: #7b4397;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-4 {
+    background: #00bf8f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.app-card img {
+    max-width: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.outline {
+    outline: 2px solid whitesmoke;
+    outline-offset: 4px;
+}
+
+.app-desc {
+    flex-basis: 550px;
+    display: flex;
+    flex-grow: 1;
+    padding: .5rem;
+    flex-direction: column;
+}
+
+.app-desc h2 {
+    padding: 0 .5rem;
+    color: #42b41c;
+    font-size: 2rem;
+}
+
+.app-desc p {
+    padding: .5rem;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
+.app-card .row {
+    padding: 0.5rem;
+    justify-content: flex-start;
+}
+
+.app-desc h3 {
+    color: #42b41c;
+    padding: 0.5rem;
+}
+
+.hon-mention2 {
+    padding-bottom: 3rem;
+}
+
+.hon-mention2 h3 {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    color: #42B41C;
+}
+
+.hon-mention2 p {
+    margin-bottom: 1rem;
+}
 
 
 /* Media Query for Tablet screen down to Mobile*/
