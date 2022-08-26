@@ -84,6 +84,10 @@ header {
     height: 100vh;
 }
 
+.logo {
+    padding-right: 1rem;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -162,7 +166,7 @@ header {
 /* About Vangaurd */
 
 .van-content {
-    padding: 6rem 1rem 1rem 1rem;
+    padding: 3rem 1rem 1rem 1rem;
     text-align: justify;
     color: whitesmoke;
 }
@@ -176,7 +180,7 @@ header {
 
 .grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     padding: 1rem 1rem 6rem 1rem;
 }
@@ -239,7 +243,7 @@ header {
 }
 
 .about-destiny-content {
-    padding: 6rem 1rem 1rem 1rem;
+    padding: 3rem 1rem 1rem 1rem;
     color: whitesmoke;
 }
 
@@ -271,7 +275,7 @@ header {
 /* Best Sites */
 
 #best-sites {
-    padding: 6rem 1rem 1rem 1rem;
+    padding: 3rem 1rem 1rem 1rem;
 }
 
 #best-sites h1 {
@@ -324,7 +328,6 @@ header {
 .card p {
     padding: 1rem;
     font-size: 1rem;
-    text-align: justify;
 }
 
 #best-sites .card a {
@@ -417,7 +420,7 @@ header {
 /* Best Apps */
 
 #best-apps {
-    padding: 6rem 1rem 1rem 1rem;
+    padding: 3rem 1rem 1rem 1rem;
     background-color: #0e2207;
 }
 
@@ -441,7 +444,7 @@ header {
     height: auto;
     justify-content: center;
     text-align: justify;
-    /* align-items: center; */
+    align-items: center;
     padding: 1rem;
     border-radius: 2rem;
     border: 3px solid whitesmoke;
@@ -531,9 +534,18 @@ header {
 }
 
 
+
+
+
+
+
+
+
+
+
 /* Media Query for Tablet screen down to Mobile*/
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1200px) {
     /* Header Tablet */
 
     /* Navbar */
@@ -558,7 +570,6 @@ header {
 
     .hamburger {
         display: block;
-        margin-right: 1rem;
         cursor: pointer;
     }
 
@@ -602,9 +613,24 @@ header {
         margin-bottom: 0.8em;
         transition: ease all 1s;
     }
+Repel The Darkness!
 
     /* About Vanguard/Destiny */
 
+    /* Best Apps */
+    .app-desc {
+        flex-basis: 550px;
+        display: flex;
+        flex-grow: 1;
+        padding: .5rem;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .app-desc .row {
+        justify-content: center;
+    }
 }
 
 /* Media Query for Mobile*/
@@ -653,6 +679,10 @@ header {
         background-color: black;
     }
 
+    .logo {
+        width: 80%;
+    }
+
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -674,7 +704,6 @@ header {
 
     .hamburger {
         display: block;
-        margin-right: 1rem;
         cursor: pointer;
     }
 
@@ -723,11 +752,39 @@ header {
 
     .grid-wrapper {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-template-rows: minmax(50px, auto) 1fr;
+        grid-template-columns: 1fr;
         gap: 2rem;
         padding: 1rem 1rem 6rem 1rem;
     }
+    
+    .grid-wrapper h2 {
+        font-size: 2rem;
+    }
+    
+    .grid-wrapper h3 {
+        font-size: 2rem;
+    }
+    
+    .grid-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+        height: 200px;
+        border-radius: 1rem;
+        color: whitesmoke;
+        box-shadow: rgba(0, 0, 0, 0.473) 0px 5px 15px;
+    }
+    
+    .grid-box i {
+        color: whitesmoke;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+
 
     .van-content h1 {
         line-height: 3rem;
