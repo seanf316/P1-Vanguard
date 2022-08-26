@@ -358,37 +358,45 @@
         </div>
     </section>
     <!-- Best Apps End -->
-
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
-                <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="Site Logo Vanguard" width="250"
-                        height="46"></a>
-                <ul class="social-networks">
-                    <li>
-                        <a href="https://discord.com/" target="_blank" rel="noopener"
-                            aria-label="Visit our Discord Server (opens in a new tab)"><i class="fa-brands fa-discord"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://facebook.com" target="_blank" rel="noopener"
-                            aria-label="Visit our Facebook page (opens in a new tab)"><i
-                                class="fa-brands fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com" target="_blank" rel="noopener"
-                            aria-label="Visit our Twitter page (opens in a new tab)"><i
-                                class="fa-brands fa-square-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://instagram.com" target="_blank" rel="noopener"
-                            aria-label="Visit our Instagram page (opens in a new tab)"><i
-                                class="fa-brands fa-instagram"></i></a>
-                    </li>
-                </ul>
+                <div class="col">
+                    <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="Site Logo Vanguard"
+                            width="250" height="46"></a>
+                </div>
+                <div class="col">
+                    <h1>Follow Us On:</h1>
+                    <ul class="social-networks">
+                        <li>
+                            <a href="https://discord.com/" target="_blank" rel="noopener"
+                                aria-label="Visit our Discord Server (opens in a new tab)"><i
+                                    class="fa-brands fa-discord"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://facebook.com" target="_blank" rel="noopener"
+                                aria-label="Visit our Facebook page (opens in a new tab)"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com" target="_blank" rel="noopener"
+                                aria-label="Visit our Twitter page (opens in a new tab)"><i
+                                    class="fa-brands fa-square-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com" target="_blank" rel="noopener"
+                                aria-label="Visit our Instagram page (opens in a new tab)"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                    <p>Or email us at: Vanguard@gmail.com</p>
+                </div>
             </div>
             <div class="copyright">
-                <p>Copyright <span>&copy; Sean Finn 2022</span></p>
+                <p>Copyright <span>&copy;</span> Sean Finn 2022 (This website was built for a project and is not for
+                    commercial use)</p>
             </div>
         </div>
     </footer>
@@ -411,6 +419,27 @@
         function closeMenu() {
             hamburger.classList.remove("active");
             navMenu.classList.remove("active");
+        }
+        //Get the button:
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
     </script>
 </body>
