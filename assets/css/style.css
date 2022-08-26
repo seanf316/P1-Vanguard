@@ -533,11 +533,32 @@ header {
     margin-bottom: 1rem;
 }
 
+/* Footer */
 
+footer {
+    height: 10rem;
+    color: whitesmoke;
+}
 
+footer .row {
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
 
+.social-networks {
+    display: flex;
+}
 
+.social-networks li {
+    margin-left: 5rem;
+    font-size: 2rem;
+}
 
+.social-networks i {
+    color: #42B41C;
+}
 
 
 
