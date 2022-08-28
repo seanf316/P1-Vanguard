@@ -546,17 +546,17 @@ header {
 }
 
 .merch-grid {
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-auto-rows: 200px 100px;
-    grid-auto-flow: dense;
+    grid-template-columns: repeat(7,1fr);
+    grid-auto-rows: 100px;
+    grid-auto-flow: row;
     gap: .5rem;
 }
 
 .grid-item {
     width: 100%;
     height: 100%;
-    position: relative;
 }
 
 .grid-item .image {
@@ -571,14 +571,43 @@ header {
     object-fit: cover;
 }
 
-.w3 {
-    grid-column: span4;
+.portrait {
+    grid-row: span 4;
+}
+
+.square {
+    grid-row: span 2;
+}
+
+.square-large {
+    grid-column: span 2;
+    grid-row: span 4;
+}
+
+.landscape {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+#gamer {
+    grid-column: 2 / span 2;
+    grid-row: 3 / span 4;
+}
+
+#t-shirt {
+    grid-column: 6 / span 2;
+    grid-row: 5 / span 2;
+}
+
+#jacket {
+    grid-column: 5 / span 1;
+    grid-row: 3 / span 4;
 }
 
 /* Footer */
 
 footer {
-    height: 10rem;
+    height: auto;
     background-color: rgb(0, 0, 0);
 }
 
@@ -737,7 +766,85 @@ footer .row {
     .app-desc .row {
         justify-content: center;
     }
-}
+
+    /* Merchanise */
+
+    .merch-grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        grid-auto-rows: 100px;
+        grid-auto-flow: row;
+        gap: .5rem;
+    }
+    
+    .grid-item .image {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .grid-item .image img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    #backpack {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 3;
+    }
+
+    #blanket {
+        grid-column: 3 / span 3;
+        grid-row: 1 / span 2;
+    }
+      
+    #bottle {
+        grid-column: 7 / span 1;
+        grid-row: 4 / span 2;
+    }
+
+    #gamer {
+        grid-column: 3 / span 3;
+        grid-row: 3 / span 3;
+    }
+    
+    #hoodie {
+        grid-column: 1 / span 2;
+        grid-row: 4 / span 4;
+    }
+
+    #hood-blanket {
+        grid-column: 6 / span 1;
+        grid-row: 3 / span 3;
+    }
+
+    #t-shirt {
+        grid-column: 6 / span 2;
+        grid-row: 6 / span 2;
+    }
+    
+    #jacket {
+        grid-column: 7 / span 1;
+        grid-row: 1 / span 3;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Media Query for Mobile*/
 
@@ -907,4 +1014,117 @@ footer .row {
         font-size: 3rem;
         margin-bottom: 1rem;
     }
+     /* Merchanise */
+
+     .merch-grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(8,1fr);
+        grid-auto-rows: 100px;
+        grid-auto-flow: row;
+        gap: .5rem;
+    }
+    
+    .grid-item .image {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .grid-item .image img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    #backpack {
+        grid-column: 1 / span 4;
+        grid-row: 1 / span 2;
+    }
+
+    #blanket {
+        grid-column: 5 / span 4;
+        grid-row: 1 / span 2;
+    }
+      
+    #bottle {
+        grid-column: 1 / span 4;
+        grid-row: 3 / span 2;
+    }
+
+    #gamer {
+        grid-column: 5 / span 4;
+        grid-row: 3 / span 2;
+    }
+    
+    #hoodie {
+        grid-column: 1 / span 4;
+        grid-row: 5 / span 2;
+    }
+
+    #hood-blanket {
+        grid-column: 5 / span 4;
+        grid-row: 5 / span 2;
+    }
+
+    #mug {
+        grid-column: 1 / span 4;
+        grid-row: 7 / span 2;
+    }
+
+    #jacket {
+        grid-column: 5 / span 4;
+        grid-row: 7 / span 2;
+    }
+
+    #hat {
+        grid-column: 1 / span 4;
+        grid-row: 9 / span 2;
+    }
+
+    #t-shirt {
+        grid-column: 5 / span 4;
+        grid-row: 9 / span 2;
+    }
+
+    #sweatshirt {
+        grid-column: 1 / span 4;
+        grid-row: 11 / span 2;
+    }
+    
+    #onesie {
+        grid-column: 5 / span 4;
+        grid-row: 11 / span 2;
+    }
+    
+    /* Footer */
+    footer .row {
+        flex-direction: column;
+        justify-content: flex-start;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1rem;
+    }
+    
+    .col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #298939;
+    }
+    
+    .social-networks {
+        display: flex;
+    }
+    
+    .social-networks li {
+        margin: 0 2rem;
+        font-size: 1.5rem;
+    }
+    
+    .social-networks i {
+        color: #298939;
+        padding-bottom: .5rem;
+    }
+
 }
