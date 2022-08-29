@@ -9,14 +9,14 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
 
 h1,
 h2,
 h3 {
-    font-family: "Exo 2", sans-serif;
+    font-family: 'Exo 2', sans-serif;
 }
 
 p {
@@ -34,6 +34,34 @@ a {
 img {
     max-width: 100%;
     display: block;
+}
+
+/* Animations */
+
+@keyframes movefromleft {
+    0% {
+        transform: translateX(-120%)
+    }
+
+    100% {
+        transform: translateX(0)
+    }
+}
+
+
+@keyframes scaleinout {
+    0% {
+        transform: scale(.9);
+    }
+
+    50% {
+        transform: scale(1);
+
+    }
+
+    100% {
+        transform: scale(.9);
+    }
 }
 
 .active-link {
@@ -75,7 +103,6 @@ header {
     background-image: url("../images/witch.webp");
     background-position: bottom;
     background-size: cover;
-    overflow-x: hidden;
 }
 
 .bg-color {
@@ -212,35 +239,6 @@ header {
     animation: scaleinout 5s ease-in-out infinite;
 }
 
-/* Animations */
-
-@keyframes movefromleft {
-    0% {
-        transform: translateX(-120%)
-    }
-
-    100% {
-        transform: translateX(0)
-    }
-}
-
-
-@keyframes scaleinout {
-    0% {
-        transform: scale(.9);
-    }
-
-    50% {
-        transform: scale(1);
-
-    }
-
-    100% {
-        transform: scale(.9);
-    }
-}
-
-
 .grid-box i {
     color: whitesmoke;
     font-size: 5rem;
@@ -287,11 +285,7 @@ header {
 
 .about-destiny {
     background-color: #0e2207;
-}
-
-.about-destiny-content {
     padding: 3rem 1rem 1rem 1rem;
-    color: whitesmoke;
 }
 
 .about-destiny p {
@@ -316,7 +310,7 @@ header {
 .about-destiny iframe {
     width: 100%;
     border-radius: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.473) 0px 5px 15px;
+    box-shadow: rgba(255, 255, 255, 0.473) 0px 5px 15px;
 }
 
 /* Best Sites */
@@ -360,7 +354,7 @@ header {
 
 .card>img {
     width: 100%;
-    height: 12.5rem !important;
+    height: 200px;
     border-top-left-radius: .8rem;
     border-top-right-radius: .8rem;
     object-fit: cover;
@@ -564,9 +558,9 @@ header {
 .app-desc {
     flex-basis: 550px;
     display: flex;
-    flex-grow: 1;
-    padding: .5rem;
     flex-direction: column;
+    flex-grow: 1;
+    padding: .5rem;  
 }
 
 .app-desc h2 {
@@ -581,14 +575,14 @@ header {
     color: whitesmoke;
 }
 
-.app-card .row {
-    padding: 0.5rem;
-    justify-content: flex-start;
-}
-
 .app-desc h3 {
     color: #42b41c;
     padding: 0.5rem;
+}
+
+.app-card .row {
+    padding: 0.5rem;
+    justify-content: flex-start;
 }
 
 .hon-mention2 {
@@ -606,6 +600,7 @@ header {
 }
 
 /* Join Us */
+
 #join-us {
     padding: 3rem 1rem 1rem 1rem;
     background-color: rgb(238, 232, 196);
@@ -618,10 +613,6 @@ header {
     margin-bottom: .5rem;
 }
 
-#join-us p {
-    color: ;
-}
-
 #join-us .row {
     justify-content: center;
     justify-content: space-between;
@@ -632,18 +623,18 @@ header {
 .quote {
     font-size: .8rem;
     margin-bottom: .5rem;
+    text-align: justify;
 }
 
 .prize {
     margin-bottom: 1.5rem;
-    font-weight: 900;
+    text-align: justify;
 }
 
 .form {
     flex-basis: 30%;
-    min-width: 280px;
+    min-width: 300px;
     flex-grow: 1;
-    margin: 0 auto;
 }
 
 .grid {
