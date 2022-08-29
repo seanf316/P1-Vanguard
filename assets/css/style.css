@@ -144,6 +144,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation: movefromleft 3s ease-in;
 }
 
 .home-content h1 {
@@ -208,7 +209,37 @@ header {
     border-radius: 1rem;
     color: whitesmoke;
     box-shadow: rgba(0, 0, 0, 0.473) 0px 5px 15px;
+    animation: scaleinout 5s ease-in-out infinite;
 }
+
+/* Animations */
+
+@keyframes movefromleft {
+    0% {
+        transform: translateX(-120%)
+    }
+
+    100% {
+        transform: translateX(0)
+    }
+}
+
+
+@keyframes scaleinout {
+    0% {
+        transform: scale(.9);
+    }
+
+    50% {
+        transform: scale(1);
+
+    }
+
+    100% {
+        transform: scale(.9);
+    }
+}
+
 
 .grid-box i {
     color: whitesmoke;
@@ -578,20 +609,17 @@ header {
 #join-us {
     padding: 3rem 1rem 1rem 1rem;
     background-color: rgb(238, 232, 196);
-    background-image: url('../images/hero.webp');
-    background-position: bottom;
-    background-size: cover;
 }
 
 #join-us h1 {
-    color: #42B41C;
+    color: #1b6400;
     line-height: 4rem;
     font-size: 4rem;
     margin-bottom: .5rem;
 }
 
 #join-us p {
-    color: whitesmoke;
+    color: ;
 }
 
 #join-us .row {
@@ -602,10 +630,13 @@ header {
 }
 
 .quote {
-    text-align: justify;
-    color: whitesmoke;
     font-size: .8rem;
     margin-bottom: .5rem;
+}
+
+.prize {
+    margin-bottom: 1.5rem;
+    font-weight: 900;
 }
 
 .form {
@@ -624,30 +655,24 @@ header {
 
 .prize-form {
     max-width: 600px;
-    height: 845px;
+    height: 920px;
     padding: 1rem;
-    border: 5px solid rgb(255, 255, 255);
+    outline: 5px solid rgb(0, 0, 0);
+    outline-offset: 5px;
     border-radius: 1rem;
-    background-color: #42b41c69;
+    background-color: #0e2207;
 }
 
 .prize-form p {
-    margin-bottom: 1rem;
-    text-align: center;
-}
-
-.prize-form h2 {
     margin-bottom: 2rem;
     text-align: center;
-    font-size: 2rem;
 }
 
-.prize-form>label {
+label {
     font-weight: 900;
     font-size: 1.2rem;
     color: whitesmoke;
 }
-
 
 .text-input {
     color: #ffffff;
@@ -683,23 +708,25 @@ header {
     font-size: 1rem;
     font-weight: bold;
     color: black;
+    cursor: pointer;
 }
 
-
-#best-sites .card a {
-    margin-bottom: 1rem;
-    padding: .4rem 1rem;
-    background-color: #42B41C;
+.join-us:hover,
+.join-us:focus {
+    padding: 0.4rem 1rem;
+    border: 2px solid rgb(212, 200, 200);
+    background-color: black;
     border-radius: 2rem;
     font-weight: bold;
-    color: black !important;
-    align-self: center;
+    color: #42b41c !important;
 }
 
-.button p {
+.form p {
     color: whitesmoke;
     margin-top: 3rem;
 }
+
+/* Merch Grid */
 
 .merch-grid {
     width: 100%;
@@ -707,7 +734,7 @@ header {
     grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: 100px;
     grid-auto-flow: row;
-    gap: .5rem;
+    gap: 1rem;
 }
 
 .grid-item {
@@ -718,13 +745,19 @@ header {
 .grid-item .image {
     height: 100%;
     width: 100%;
+    border-radius: 1rem;
     overflow: hidden;
+    transition: transform .2s;
 }
 
 .grid-item .image img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.grid-item .image:hover {
+    transform: scale(1.1);
 }
 
 /* Grid Images */
@@ -824,6 +857,12 @@ footer .row {
     color: #298939;
     padding-bottom: .5rem;
 }
+
+.social-networks i:hover {
+    color: rgb(238, 232, 196);
+}
+
+
 
 .col h1 {
     font-size: 1.5rem;
@@ -973,6 +1012,15 @@ footer .row {
     }
 
     /* Join Us */
+
+
+    #join-us .row {
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: .5rem 0 3rem 0;
+    }
 
     .form {
         flex-basis: 30%;
