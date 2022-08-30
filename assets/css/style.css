@@ -9,14 +9,14 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     overflow-x: hidden;
 }
 
 h1,
 h2,
 h3 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
 }
 
 p {
@@ -40,27 +40,25 @@ img {
 
 @keyframes movefromleft {
     0% {
-        transform: translateX(-120%)
+        transform: translateX(-120%);
     }
 
     100% {
-        transform: translateX(0)
+        transform: translateX(0);
     }
 }
 
-
 @keyframes scaleinout {
     0% {
-        transform: scale(.9);
+        transform: scale(0.9);
     }
 
     50% {
         transform: scale(1);
-
     }
 
     100% {
-        transform: scale(.9);
+        transform: scale(0.9);
     }
 }
 
@@ -246,11 +244,11 @@ header {
 }
 
 .weapons {
-    background: #8E2DE2;
+    background: #8e2de2;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4a00e0, #8e2de2);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -355,9 +353,9 @@ header {
 .card>img {
     width: 100%;
     height: 200px;
-    border-top-left-radius: .8rem;
-    border-top-right-radius: .8rem;
     object-fit: cover;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
 }
 
 #best-sites h2 {
@@ -374,8 +372,8 @@ header {
 
 #best-sites .card a {
     margin-bottom: 1rem;
-    padding: .4rem 1rem;
-    background-color: #42B41C;
+    padding: 0.4rem 1rem;
+    background-color: #42b41c;
     border-radius: 2rem;
     font-weight: bold;
     color: black !important;
@@ -386,15 +384,15 @@ header {
     margin-top: auto;
     width: 100%;
     padding: 1.5rem 0 1rem 0;
-    background: #8E2DE2;
+    background: #8e2de2;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4a00e0, #8e2de2);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
-    border-bottom-left-radius: .7rem;
-    border-bottom-right-radius: .7rem;
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
     border-top: 3px solid black;
 }
 
@@ -409,8 +407,8 @@ header {
     background: linear-gradient(to right, #2948ff, #396afc);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
-    border-bottom-left-radius: .7rem;
-    border-bottom-right-radius: .7rem;
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
     border-top: 3px solid black;
 }
 
@@ -425,8 +423,8 @@ header {
     background: linear-gradient(to right, #dc2430, #7b4397);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
-    border-bottom-left-radius: .7rem;
-    border-bottom-right-radius: .7rem;
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
     border-top: 3px solid black;
 }
 
@@ -441,19 +439,19 @@ header {
     background: linear-gradient(to right, #001510, #00bf8f);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
-    border-bottom-left-radius: .7rem;
-    border-bottom-right-radius: .7rem;
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
     border-top: 3px solid black;
 }
 
 #best-sites a:hover,
 #best-sites a:focus {
-    padding: .4rem 1rem;
+    padding: 0.4rem 1rem;
     border: 2px solid rgb(212, 200, 200) !important;
     background-color: black;
     border-radius: 2rem;
     font-weight: bold;
-    color: #42B41C !important;
+    color: #42b41c !important;
     border: 2px solid rgb(0, 0, 0);
 }
 
@@ -463,12 +461,25 @@ header {
 
 .hon-mention h3 {
     font-size: 1.5rem;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
     color: #1b6400;
 }
 
 .hon-mention p {
     margin-bottom: 1rem;
+}
+
+#nostyle a{
+    color: #525252;
+    font-weight: bold;
+}
+
+#nostyle a:hover {
+    padding: 0;
+    background-color: transparent;
+    font-weight: bold;
+    color: #42b41c;
+    border: 0!important;
 }
 
 /* Best Apps */
@@ -509,11 +520,11 @@ header {
 }
 
 .bg-1 {
-    background: #8E2DE2;
+    background: #8e2de2;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4a00e0, #8e2de2);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -560,17 +571,17 @@ header {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    padding: .5rem;  
+    padding: 0.5rem;
 }
 
 .app-desc h2 {
-    padding: 0 .5rem;
+    padding: 0 0.5rem;
     color: #42b41c;
     font-size: 2rem;
 }
 
 .app-desc p {
-    padding: .5rem;
+    padding: 0.5rem;
     font-size: 1rem;
     color: whitesmoke;
 }
@@ -591,8 +602,8 @@ header {
 
 .hon-mention2 h3 {
     font-size: 1.5rem;
-    margin-bottom: .5rem;
-    color: #42B41C;
+    margin-bottom: 0.5rem;
+    color: #42b41c;
 }
 
 .hon-mention2 p {
@@ -610,19 +621,19 @@ header {
     color: #1b6400;
     line-height: 4rem;
     font-size: 4rem;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
 }
 
 #join-us .row {
     justify-content: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: .5rem 0 3rem 0;
+    padding: 0.5rem 0 3rem 0;
 }
 
 .quote {
-    font-size: .8rem;
-    margin-bottom: .5rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
     text-align: justify;
 }
 
@@ -671,15 +682,15 @@ label {
     width: 100%;
     height: 1.5rem;
     margin: 5px 0 20px 0;
-    padding-left: .5rem;
+    padding-left: 0.5rem;
     border: 2px solid #ffffff;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     font-size: 1rem;
 }
 
 .feedback {
     height: 12rem;
-    padding-top: .2rem;
+    padding-top: 0.2rem;
     font-size: 1rem;
 }
 
@@ -692,8 +703,8 @@ label {
 .join-us {
     margin-inline: auto;
     margin-bottom: 1rem;
-    padding: .4rem 1rem;
-    background-color: #42B41C;
+    padding: 0.4rem 1rem;
+    background-color: #42b41c;
     border-radius: 2rem;
     border: 2px solid white;
     font-size: 1rem;
@@ -738,7 +749,7 @@ label {
     width: 100%;
     border-radius: 1rem;
     overflow: hidden;
-    transition: transform .2s;
+    transition: transform 0.2s;
 }
 
 .grid-item .image img {
@@ -756,7 +767,6 @@ label {
 #backpack {
     grid-column: 1 / span 1;
     grid-row: 1 / span 4;
-
 }
 
 #hat {
@@ -846,18 +856,16 @@ footer .row {
 
 .social-networks i {
     color: #298939;
-    padding-bottom: .5rem;
+    padding-bottom: 0.5rem;
 }
 
 .social-networks i:hover {
     color: rgb(238, 232, 196);
 }
 
-
-
 .col h1 {
     font-size: 1.5rem;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
 }
 
 .col p {
@@ -867,52 +875,33 @@ footer .row {
 
 .copyright p {
     text-align: center;
-    font-size: .5rem;
+    font-size: 0.5rem;
     padding-bottom: 1rem;
     color: #298939;
     font-weight: bold;
 }
 
-
 /* Scroll to the Top Button created with www.w3schools.com tutorial */
 #myBtn {
     display: none;
-    /* Hidden by default */
     position: fixed;
-    /* Fixed/sticky position */
     bottom: 20px;
-    /* Place the button at the bottom of the page */
-    right: .5rem;
-    /* Place the button 30px from the right */
+    right: 0.5rem;
     z-index: 99;
-    /* Make sure it does not overlap */
     border: none;
-    /* Remove borders */
     outline: none;
-    /* Remove outline */
     background-color: #42b41c67;
-    /* Set a background color */
     color: white;
-    /* Text color */
     cursor: pointer;
-    /* Add a mouse pointer on hover */
     padding: 5px;
-    /* Some padding */
     border-radius: 5px;
-    /* Rounded corners */
     font-size: 1rem;
-    /* Increase font size */
 }
 
 #myBtn:hover {
     background-color: black;
     /* Add a dark-grey background on hover */
 }
-
-
-
-
-
 
 /* Media Query for Tablet screen down to Mobile*/
 
@@ -992,7 +981,7 @@ footer .row {
         flex-basis: 550px;
         display: flex;
         flex-grow: 1;
-        padding: .5rem;
+        padding: 0.5rem;
         flex-direction: column;
         text-align: center;
         margin-top: 1rem;
@@ -1004,13 +993,12 @@ footer .row {
 
     /* Join Us */
 
-
     #join-us .row {
         flex-direction: column;
         justify-content: center;
         justify-content: space-between;
         flex-wrap: wrap;
-        padding: .5rem 0 3rem 0;
+        padding: 0.5rem 0 3rem 0;
     }
 
     .form {
@@ -1033,7 +1021,7 @@ footer .row {
         grid-template-columns: repeat(5, 1fr);
         grid-auto-rows: 100px;
         grid-auto-flow: row;
-        gap: .5rem;
+        gap: 0.5rem;
     }
 
     /* Grid Images */
@@ -1041,7 +1029,6 @@ footer .row {
     #backpack {
         grid-column: 1 / span 1;
         grid-row: 1 / span 2;
-
     }
 
     #hat {
@@ -1098,301 +1085,281 @@ footer .row {
         grid-column: 2 / span 2;
         grid-row: 5 / span 2;
     }
+}
 
+/* Media Query for Mobile*/
 
+@media only screen and (max-width: 700px) and (orientation: landscape) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* Media Query for Mobile*/
-
-    @media only screen and (max-width: 700px) and (orientation: landscape) {
-        .navbar {
-            background-color: black;
-        }
-
-        .nav-item {
-            margin: 1rem 0;
-        }
-
-        /* Homepage */
-
-        .home-content {
-            width: max-content;
-            color: whitesmoke;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 4rem auto;
-        }
-
-        .home-content h1 {
-            font-size: 2.2rem;
-            transition: ease all 1s;
-        }
-
-        .line {
-            width: 20rem;
-            height: 0.25rem;
-            background-color: #42b41c;
-            margin: 0.5rem auto;
-        }
-
-        .home-content h2 {
-            font-size: 1.8rem;
-            margin-bottom: 0.8em;
-            transition: ease all 1s;
-        }
+    .navbar {
+        background-color: black;
     }
 
-    @media only screen and (max-width: 650px) {
-        .navbar {
-            background-color: black;
-        }
-
-        .logo {
-            width: 80%;
-        }
-
-        .nav-menu {
-            position: fixed;
-            left: -100%;
-            top: 4rem;
-            flex-direction: column;
-            background-color: rgb(0, 0, 0);
-            width: 100%;
-            text-align: center;
-            transition: 0.3s;
-        }
-
-        .nav-menu.active {
-            left: 0;
-        }
-
-        .nav-item {
-            margin: 1.5rem 0;
-        }
-
-        .hamburger {
-            display: block;
-            cursor: pointer;
-        }
-
-        .hamburger.active .bar:nth-child(2) {
-            opacity: 0;
-        }
-
-        .hamburger.active .bar:nth-child(1) {
-            transform: translateY(8px) rotate(45deg);
-        }
-
-        .hamburger.active .bar:nth-child(3) {
-            transform: translateY(-8px) rotate(-45deg);
-        }
-
-        /* Homepage */
-
-        .home-content {
-            width: max-content;
-            color: whitesmoke;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 25rem auto;
-        }
-
-        .home-content h1 {
-            font-size: 2rem;
-            transition: ease all 1s;
-        }
-
-        .line {
-            width: 20rem;
-            height: 0.25rem;
-            background-color: #42b41c;
-            margin: 0.5rem auto;
-        }
-
-        .home-content h2 {
-            font-size: 1.6rem;
-            margin-bottom: 0.4em;
-            transition: ease all 1s;
-        }
-
-        /* About Vanguard */
-
-        .grid-wrapper {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 2rem;
-            padding: 1rem 1rem 6rem 1rem;
-        }
-
-        .grid-wrapper h2 {
-            font-size: 2rem;
-        }
-
-        .grid-wrapper h3 {
-            font-size: 2rem;
-        }
-
-        .grid-box {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 1rem;
-            height: 200px;
-            border-radius: 1rem;
-            color: whitesmoke;
-            box-shadow: rgba(0, 0, 0, 0.473) 0px 5px 15px;
-        }
-
-        .grid-box i {
-            color: whitesmoke;
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-
-
-
-        .van-content h1 {
-            line-height: 3rem;
-            font-size: 3rem;
-            color: #407e2b;
-            margin-bottom: 1rem;
-        }
-
-        /* About Destiny */
-
-        .about-destiny h1 {
-            color: #42b41c;
-            line-height: 3rem;
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-
-        /* Join Us */
-
-        .merch-grid {
-            width: 100%;
-            display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            grid-auto-rows: 100px;
-            grid-auto-flow: row;
-            gap: .5rem;
-        }
-
-        /* Grid Images */
-
-        #backpack {
-            grid-column: 1 / span 3;
-            grid-row: 1 / span 2;
-
-        }
-
-        #hat {
-            grid-column: 4 / span 3;
-            grid-row: 1 / span 2;
-        }
-
-        #blanket {
-            grid-column: 1 / span 3;
-            grid-row: 3 / span 2;
-        }
-
-        #hoodie {
-            grid-column: 4 / span 3;
-            grid-row: 3 / span 2;
-        }
-        
-
-        #t-shirt {
-            grid-column: 1 / span 3;
-            grid-row: 5 / span 2;
-        }
-
-        #bottle {
-            grid-column: 4 / span 3;
-            grid-row: 5 / span 2;
-        }
-
-        #hood-blanket {
-            grid-column: 1 / span 3;
-            grid-row: 7 / span 2;
-        }
-
-        #onesie {
-            grid-column: 4 / span 3;
-            grid-row: 7 / span 2;
-        }
-
-        #sweatshirt {
-            grid-column: 1 / span 3;
-            grid-row: 9 / span 2;
-        }
-
-        #mug {
-            grid-column: 4 / span 3;
-            grid-row: 9 / span 2;
-        }
-
-        #jacket {
-            grid-column: 1 / span 3;
-            grid-row: 11 / span 2;
-        }
-
-        #gamer {
-            grid-column: 4 / span 3;
-            grid-row: 11 / span 2;
-        }
-
-        /* Footer */
-        footer .row {
-            flex-direction: column;
-            justify-content: center;
-            padding: 1rem 1rem;
-            text-align: center;
-        }
-
-        .col .logo {
-            padding: 0;
-        }
-
-        .col {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-            color: #298939;
-        }
-
-        .social-networks {
-            display: flex;
-        }
-
-        .social-networks li {
-            margin: 0 1rem;
-            font-size: 1.5rem;
-        }
-
-        .social-networks i {
-            color: #298939;
-            padding-bottom: .5rem;
-        }
-
-        .social-networks p {}
-
+    .nav-item {
+        margin: 1rem 0;
     }
+
+    /* Homepage */
+
+    .home-content {
+        width: max-content;
+        color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 4rem auto;
+    }
+
+    .home-content h1 {
+        font-size: 2.2rem;
+        transition: ease all 1s;
+    }
+
+    .line {
+        width: 20rem;
+        height: 0.25rem;
+        background-color: #42b41c;
+        margin: 0.5rem auto;
+    }
+
+    .home-content h2 {
+        font-size: 1.8rem;
+        margin-bottom: 0.8em;
+        transition: ease all 1s;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    .navbar {
+        background-color: black;
+    }
+
+    .logo {
+        width: 80%;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 4rem;
+        flex-direction: column;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 1.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    /* Homepage */
+
+    .home-content {
+        width: max-content;
+        color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 25rem auto;
+    }
+
+    .home-content h1 {
+        font-size: 2rem;
+        transition: ease all 1s;
+    }
+
+    .line {
+        width: 20rem;
+        height: 0.25rem;
+        background-color: #42b41c;
+        margin: 0.5rem auto;
+    }
+
+    .home-content h2 {
+        font-size: 1.6rem;
+        margin-bottom: 0.4em;
+        transition: ease all 1s;
+    }
+
+    /* About Vanguard */
+
+    .grid-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 1rem 1rem 6rem 1rem;
+    }
+
+    .grid-wrapper h2 {
+        font-size: 2rem;
+    }
+
+    .grid-wrapper h3 {
+        font-size: 2rem;
+    }
+
+    .grid-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+        height: 200px;
+        border-radius: 1rem;
+        color: whitesmoke;
+        box-shadow: rgba(0, 0, 0, 0.473) 0px 5px 15px;
+    }
+
+    .grid-box i {
+        color: whitesmoke;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .van-content h1 {
+        line-height: 3rem;
+        font-size: 3rem;
+        color: #407e2b;
+        margin-bottom: 1rem;
+    }
+
+    /* About Destiny */
+
+    .about-destiny h1 {
+        color: #42b41c;
+        line-height: 3rem;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    /* Join Us */
+
+    .merch-grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-auto-rows: 100px;
+        grid-auto-flow: row;
+        gap: 0.5rem;
+    }
+
+    /* Grid Images */
+
+    #backpack {
+        grid-column: 1 / span 3;
+        grid-row: 1 / span 2;
+    }
+
+    #hat {
+        grid-column: 4 / span 3;
+        grid-row: 1 / span 2;
+    }
+
+    #blanket {
+        grid-column: 1 / span 3;
+        grid-row: 3 / span 2;
+    }
+
+    #hoodie {
+        grid-column: 4 / span 3;
+        grid-row: 3 / span 2;
+    }
+
+    #t-shirt {
+        grid-column: 1 / span 3;
+        grid-row: 5 / span 2;
+    }
+
+    #bottle {
+        grid-column: 4 / span 3;
+        grid-row: 5 / span 2;
+    }
+
+    #hood-blanket {
+        grid-column: 1 / span 3;
+        grid-row: 7 / span 2;
+    }
+
+    #onesie {
+        grid-column: 4 / span 3;
+        grid-row: 7 / span 2;
+    }
+
+    #sweatshirt {
+        grid-column: 1 / span 3;
+        grid-row: 9 / span 2;
+    }
+
+    #mug {
+        grid-column: 4 / span 3;
+        grid-row: 9 / span 2;
+    }
+
+    #jacket {
+        grid-column: 1 / span 3;
+        grid-row: 11 / span 2;
+    }
+
+    #gamer {
+        grid-column: 4 / span 3;
+        grid-row: 11 / span 2;
+    }
+
+    /* Footer */
+    footer .row {
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem 1rem;
+        text-align: center;
+    }
+
+    .col .logo {
+        padding: 0;
+    }
+
+    .col {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        color: #298939;
+    }
+
+    .social-networks {
+        display: flex;
+    }
+
+    .social-networks li {
+        margin: 0 1rem;
+        font-size: 1.5rem;
+    }
+
+    .social-networks i {
+        color: #298939;
+        padding-bottom: 0.5rem;
+    }
+}
