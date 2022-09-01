@@ -1,0 +1,125 @@
+/* About Vangaurd */
+
+.about-van {
+    background-color: rgb(238, 232, 196);
+}
+
+.van-content {
+    padding: 3rem 1rem 1rem 1rem;
+    width: 96%;
+    margin: 0 auto;
+    text-align: justify;
+    color: whitesmoke;
+}
+
+.van-content h1 {
+    line-height: 4rem;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #1b6400;
+}
+
+.grid-wrapper {
+    width: 96%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 1rem 1rem 6rem 1rem;
+}
+
+.grid-wrapper h2 {
+    font-size: 3rem;
+}
+
+.grid-wrapper h3 {
+    font-size: 2rem;
+}
+
+.grid-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    height: 300px;
+    border-radius: 1rem;
+    color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.473) 0px 5px 15px;
+    animation: scaleinout 5s ease-in-out infinite;
+}
+
+.grid-box i {
+    color: whitesmoke;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.weapons {
+    background: #8e2de2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4a00e0, #8e2de2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.armour {
+    background: #396afc;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2948ff, #396afc);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2948ff, #396afc);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.seals {
+    background: #7b4397;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dc2430, #7b4397);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dc2430, #7b4397);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cosmetics {
+    background: #00bf8f;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #001510, #00bf8f);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #001510, #00bf8f);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* About Destiny */
+
+.about-destiny {
+    background-color: #0e2207;
+    padding: 3rem 1rem 1rem 1rem;
+}
+
+.about-destiny p {
+    text-align: justify;
+    color: whitesmoke;
+}
+
+.about-destiny h1 {
+    color: #42b41c;
+    line-height: 4rem;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.about-destiny h2 {
+    color: #42b41c;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.about-destiny iframe {
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: rgba(255, 255, 255, 0.473) 0px 5px 15px;
+}

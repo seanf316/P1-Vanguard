@@ -1,0 +1,113 @@
+/* Best Apps */
+
+#best-apps {
+    padding: 3rem 1rem 1rem 1rem;
+    background-color: #0e2207;
+}
+
+#best-apps h1 {
+    color: #42b41c;
+    line-height: 4rem;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+#best-apps p {
+    color: whitesmoke;
+    text-align: justify;
+}
+
+.app-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 90%;
+    flex-grow: 1;
+    height: auto;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 3px solid whitesmoke;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.bg-1 {
+    background: #8e2de2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4a00e0, #8e2de2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-2 {
+    background: #396afc;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2948ff, #396afc);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2948ff, #396afc);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-3 {
+    background: #7b4397;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dc2430, #7b4397);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dc2430, #7b4397);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-4 {
+    background: #00bf8f;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #001510, #00bf8f);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #001510, #00bf8f);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.app-card img {
+    max-width: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.outline {
+    outline: 2px solid whitesmoke;
+    outline-offset: 4px;
+}
+
+.app-desc {
+    flex-basis: 550px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 0.5rem;
+}
+
+.app-desc h2 {
+    padding: 0 0.5rem;
+    color: #42b41c;
+    font-size: 2rem;
+}
+
+.app-desc p {
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
+.app-desc h3 {
+    color: #42b41c;
+    padding: 0.5rem;
+}
+
+.app-card .row {
+    padding: 0.5rem;
+    justify-content: flex-start;
+}

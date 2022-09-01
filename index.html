@@ -11,7 +11,13 @@
         content="destiny, titan, hunter, warlock, vanguard, destiny best sites, destiny best apps, companion" />
 
     <script src="https://kit.fontawesome.com/e4bf4f6321.js" crossorigin="anonymous"></script>
+    <script src="vanguard.js" defer></script>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media-queries.css">
+    <link rel="stylesheet" href="assets/css/about-van-destiny.css">
+    <link rel="stylesheet" href="assets/css/best-sites.css">
+    <link rel="stylesheet" href="assets/css/best-apps.css">
+    <link rel="stylesheet" href="assets/css/join-us.css">
     <title>Vanguard</title>
 </head>
 
@@ -19,9 +25,9 @@
     <!-- Header Start -->
     <header class="header bg-color">
         <div class="bg-color">
-            <nav class="navbar">
-                <a href="index.html" class="logo"><img src="assets/images/logo.webp" alt="Site Logo Vanguard" width="250"
-                        height="46"></a>
+            <nav id="navbar" class="navbar">
+                <a href="index.html" class="logo"><img src="assets/images/logo.webp" alt="Site Logo Vanguard"
+                        width="250" height="46"></a>
                 <ul class="nav-menu">
                     <li class="nav-item"><a href="index.html" class="nav-link active-link">Home</a></li>
                     <li class="nav-item"><a href="#about-van" class="nav-link">About</a></li>
@@ -47,8 +53,7 @@
     <!-- Header End -->
 
     <!-- About Vanguard Start-->
-    <section id="about-van">
-        <div class="container">
+    <section id="about-van" class="about-van">
             <div class="van-content">
                 <h1>About Vanguard</h1>
                 <p>
@@ -89,7 +94,6 @@
                     </h2>
                 </div>
             </div>
-        </div>
     </section>
     <!-- About Vanguard End-->
 
@@ -140,7 +144,7 @@
     <!-- About Destiny End-->
 
     <!-- Best Sites Start -->
-    <section id="best-sites">
+    <section id="best-sites" class="best-sites" >
         <div class="container">
             <h1>Best Sites</h1>
             <p>Below you will find the best sites to help you conquer the game. These sites are the communities' "Go-To"
@@ -165,7 +169,7 @@
                         collectible you are missing.
                     </p>
                     <div class="cta-bg1">
-                        <a class="cta" href="https://bray.tech/" target="_blank" >Visit Braytech</a>
+                        <a class="cta" href="https://bray.tech/" target="_blank">Visit Braytech</a>
                     </div>
                 </div>
                 <div class="card">
@@ -226,22 +230,12 @@
                     </div>
                 </div>
             </div>
-            <div class="hon-mention">
-                <h3>Honourable Mention - Discord</h3>
-                <p>Unfortunately, Destiny does not have an LFG <strong>(looking for a group.)</strong> system in-game so
-                    although the game can be played solo you will need a fireteam for some of the more difficult
-                    activities. Discord is a great site to join up with players from all over the world to complete
-                    story missions,
-                    strikes, raids etc. The most popular Destiny LFG is - <span id="nostyle"><a href="https://discord.com/invite/d2lfg">https://discord.com/invite/d2lfg</a></span></p>
-                    
-                <a class="cta" href="https://discord.com/" target="_blank">Visit Discord</a>
-            </div>
         </div>
     </section>
     <!-- Best Sites End -->
 
     <!-- Best Apps Start -->
-    <section id="best-apps">
+    <section id="best-apps" class="best-apps">
         <div class="container">
             <h1>Best Apps</h1>
             <p>Below you will find the best apps to help you repel the darkness. The below mobile apps are fan
@@ -250,7 +244,8 @@
                 information right on your phone.</p>
             <div class="row">
                 <div class="app-card bg-1">
-                    <img class="outline" src="assets/images/destiny-companion.webp" alt="Destiny Companion App" width="250" height="250">
+                    <img class="outline" src="assets/images/destiny-companion.webp" alt="Destiny Companion App"
+                        width="250" height="250">
                     <div class="app-desc">
                         <h2>Destiny Companion</h2>
                         <p>The official Destiny 2 Companion app keeps you connected to your Destiny adventure wherever
@@ -263,17 +258,20 @@
                         <h3>Download Here:</h3>
                         <div class="row">
                             <a href="https://apps.apple.com/ie/app/destiny-2-companion/id441444902" target="_blank">
-                                <img src="assets/images/app-store.webp" alt="Apple App Store Link" width="50" height="50">
+                                <img src="assets/images/app-store.webp" alt="Apple App Store Link" width="50"
+                                    height="50">
                             </a>
                             <a href="https://play.google.com/store/apps/details?id=com.bungieinc.bungiemobile&gl=IE"
                                 target="_blank">
-                                <img src="assets/images/play-store.webp" alt="Google Play Store Link" width="50" height="50">
+                                <img src="assets/images/play-store.webp" alt="Google Play Store Link" width="50"
+                                    height="50">
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="app-card reverse bg-2">
-                    <img class="outline" src="assets/images/isthar-commander.webp" alt="Isthar Commander App" width="250" height="250">
+                    <img class="outline" src="assets/images/isthar-commander.webp" alt="Isthar Commander App"
+                        width="250" height="250">
                     <div class="app-desc">
                         <h2>Ishtar Commander</h2>
                         <p>Tap into your Destiny 2 Guardian's weapons, gear, vault, and inventory all from your device.
@@ -286,16 +284,19 @@
                         <h3>Download Here:</h3>
                         <div class="row">
                             <a href="https://apps.apple.com/ie/app/ishtar-commander-for-destiny-2/id1030835428"
-                                target="_blank"><img src="assets/images/app-store.webp" alt="Apple App Store Link" width="50" height="50">
+                                target="_blank"><img src="assets/images/app-store.webp" alt="Apple App Store Link"
+                                    width="50" height="50">
                             </a>
                             <a href="https://play.google.com/store/apps/details?id=com.unintuitive.IshtarCommander&gl=IE"
-                                target="_blank"><img src="assets/images/play-store.webp" alt="Google Play Store Link" width="50" height="50">
+                                target="_blank"><img src="assets/images/play-store.webp" alt="Google Play Store Link"
+                                    width="50" height="50">
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="app-card bg-3">
-                    <img class="outline" src="assets/images/destiny-trials-report.webp" alt="Destiny Trials Report" width="250" height="250">
+                    <img class="outline" src="assets/images/destiny-trials-report.webp" alt="Destiny Trials Report"
+                        width="250" height="250">
                     <div class="app-desc">
                         <h2>Destiny Trials Report</h2>
                         <p>Destiny Trials Report is the ultimate companion for players of Trials of Osiris, a game mode
@@ -316,16 +317,19 @@
                         <h3>Download Here:</h3>
                         <div class="row">
                             <a href="https://apps.apple.com/ie/app/destiny-trials-report/id1602391282"
-                                target="_blank"><img src="assets/images/app-store.webp" alt="Apple App Store Link" width="50" height="50">
+                                target="_blank"><img src="assets/images/app-store.webp" alt="Apple App Store Link"
+                                    width="50" height="50">
                             </a>
                             <a href="https://play.google.com/store/apps/details?id=com.plafhop.trialsreport&hl=en_IE&gl=US"
-                                target="_blank"><img src="assets/images/play-store.webp" alt="Google Play Store Link" width="50" height="50">
+                                target="_blank"><img src="assets/images/play-store.webp" alt="Google Play Store Link"
+                                    width="50" height="50">
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="app-card reverse bg-4">
-                    <img class="outline" src="assets/images/where-is-zur.webp" alt="Where Is Zur App" width="250" height="250">
+                    <img class="outline" src="assets/images/where-is-zur.webp" alt="Where Is Zur App" width="250"
+                        height="250">
                     <div class="app-desc">
                         <h2>Where is Zur?</h2>
                         <p>The most anticipated character of Destiny 2, Xur, Agent of the Nine has its own application
@@ -337,24 +341,16 @@
                         <h3>Download Here:</h3>
                         <div class="row">
                             <a href="https://apps.apple.com/ie/app/where-is-xur-for-destiny-2/id955286784"
-                                target="_blank"><img src="assets/images/app-store.webp" alt="Apple App Store Link" width="50" height="50">
+                                target="_blank"><img src="assets/images/app-store.webp" alt="Apple App Store Link"
+                                    width="50" height="50">
                             </a>
                             <a href="https://play.google.com/store/apps/details?id=com.crocusgames.whereisxur&gl=IE"
-                                target="_blank"><img src="assets/images/play-store.webp" alt="Google Play Store Link" width="50" height="50">
+                                target="_blank"><img src="assets/images/play-store.webp" alt="Google Play Store Link"
+                                    width="50" height="50">
                             </a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="hon-mention2">
-                <h3>Honourable Mention - D2Checklist</h3>
-                <p>With D2Checklist you can report on Destiny 2 progress and stats. Raids, weekly PvE activities, and
-                    PVP info. Destiny 2 version of Destiny Checklist. At the moment it is only available for Android
-                    users with an Apple app coming sometime in the future.</p>
-                <p>Download Here:</p>
-                <a href="https://play.google.com/store/apps/details?id=com.d2checklist.www.twa&hl=en_IE&gl=US"
-                    target="_blank"><img src="assets/images/play-store.webp" alt="Google Play Store Link" width="50" height="50">
-                </a>
             </div>
         </div>
     </section>
@@ -362,7 +358,7 @@
 
 
     <!-- Join Us Start-->
-    <section id="join-us">
+    <section id="join-us" class="join-us">
         <div class="container">
             <h1>Join Us</h1>
             <p class="quote"><em>The road is still long, but I have still plenty of ideas to make the life of my fellow
@@ -389,7 +385,7 @@
                         <textarea id="feedback" name="feedback" class="text-input feedback"
                             placeholder="Tell us how we can improve Vanguard?"></textarea>
                         <div class="button">
-                            <input class="join-us" type="submit" value="Join Us">
+                            <input class="join" type="submit" value="Join Us">
                         </div>
                         <p><strong>Winning Guardian will be contacted by email - Now go and fight the
                                 Darkness!</strong>
@@ -507,52 +503,6 @@
         </div>
     </footer>
     <!-- Footer End -->
-
-    <!-- Scroll To Top Button Start (Created using www.w3schools.com tutorial) -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    <!-- Scroll To Top Button End -->
-
-    <script>
-        const hamburger = document.querySelector(".hamburger");
-        const navMenu = document.querySelector(".nav-menu");
-
-        hamburger.addEventListener("click", mobileMenu);
-
-        function mobileMenu() {
-            hamburger.classList.toggle("active");
-            navMenu.classList.toggle("active");
-        }
-
-        const navLink = document.querySelectorAll(".nav-link");
-
-        navLink.forEach(n => n.addEventListener("click", closeMenu));
-
-        function closeMenu() {
-            hamburger.classList.remove("active");
-            navMenu.classList.remove("active");
-        }
-        //Get the button:
-        mybutton = document.getElementById("myBtn");
-
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function () {
-            scrollFunction()
-        };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
-        }
-
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0; // For Safari
-            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-        }
-    </script>
 </body>
 
 </html>

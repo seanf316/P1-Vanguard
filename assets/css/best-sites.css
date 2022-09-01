@@ -1,0 +1,156 @@
+/* Best Sites */
+
+.best-sites {
+    padding: 3rem 1rem 1rem 1rem;
+    background-color: rgb(238, 232, 196);
+}
+
+.best-sites h1 {
+    color: #1b6400;
+    line-height: 4rem;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.best-sites p {
+    text-align: justify;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 420px;
+    min-height: 740px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    box-shadow: rgb(255, 255, 255) 0px 10px 30px -10px;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.card>img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+}
+
+.best-sites h2 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: #1b6400;
+    text-align: center;
+}
+
+.card p {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.best-sites .card a {
+    margin-bottom: 1rem;
+    padding: 0.4rem 1rem;
+    background-color: #42b41c;
+    border-radius: 2rem;
+    font-weight: bold;
+    color: black !important;
+    align-self: center;
+}
+
+.cta-bg1 {
+    margin-top: auto;
+    width: 100%;
+    padding: 1.5rem 0 1rem 0;
+    background: #8e2de2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4a00e0, #8e2de2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+    border-top: 3px solid black;
+}
+
+.cta-bg2 {
+    margin-top: auto;
+    width: 100%;
+    padding: 1.5rem 0 1rem 0;
+    background: #396afc;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2948ff, #396afc);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2948ff, #396afc);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+    border-top: 3px solid black;
+}
+
+.cta-bg3 {
+    margin-top: auto;
+    width: 100%;
+    padding: 1.5rem 0 1rem 0;
+    background: #7b4397;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dc2430, #7b4397);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dc2430, #7b4397);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+    border-top: 3px solid black;
+}
+
+.cta-bg4 {
+    margin-top: auto;
+    width: 100%;
+    padding: 1.5rem 0 1rem 0;
+    background: #00bf8f;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #001510, #00bf8f);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #001510, #00bf8f);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+    border-top: 3px solid black;
+}
+
+#best-sites a:hover,
+#best-sites a:focus {
+    padding: 0.4rem 1rem;
+    border: 2px solid rgb(212, 200, 200) !important;
+    background-color: black;
+    border-radius: 2rem;
+    font-weight: bold;
+    color: #42b41c !important;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#nostyle a{
+    color: #525252;
+    font-weight: bold;
+}
+
+#nostyle a:hover {
+    padding: 0;
+    background-color: transparent;
+    font-weight: bold;
+    color: #42b41c;
+    border: 0!important;
+}
