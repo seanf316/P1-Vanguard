@@ -145,6 +145,7 @@
         font-size: 3rem;
         color: #1b6400;
         margin-bottom: 1rem;
+        text-align: center;
     }
 
     .about-van__grid-wrapper {
@@ -184,6 +185,7 @@
         line-height: 3rem;
         font-size: 3rem;
         margin-bottom: 1rem;
+        text-align: center;
     }
 
     .about-destiny__grid-wrapper {
