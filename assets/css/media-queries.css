@@ -305,22 +305,21 @@
 
     /* About Vanguard */
 
-    .grid-wrapper {
+    .about-van__title {
+        line-height: 3rem;
+        font-size: 3rem;
+        color: #407e2b;
+        margin-bottom: 1rem;
+    }
+
+    .about-van__grid-wrapper {
         display: grid;
         grid-template-columns: 1fr;
         gap: 2rem;
         padding: 1rem 1rem 6rem 1rem;
     }
 
-    .grid-wrapper h2 {
-        font-size: 2rem;
-    }
-
-    .grid-wrapper h3 {
-        font-size: 2rem;
-    }
-
-    .grid-box {
+    .about-van__grid-box {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -333,18 +332,22 @@
         box-shadow: rgba(0, 0, 0, 0.473) 0px 5px 15px;
     }
 
-    .grid-box i {
+    .about-van__grid-box__i {
         color: whitesmoke;
         font-size: 3rem;
         margin-bottom: 1rem;
     }
 
-    .van-content h1 {
-        line-height: 3rem;
-        font-size: 3rem;
-        color: #407e2b;
-        margin-bottom: 1rem;
+    .about-van__grid-box__title {
+        font-size: 2rem;
     }
+
+
+    
+
+    
+
+    
 
     /* About Destiny */
 

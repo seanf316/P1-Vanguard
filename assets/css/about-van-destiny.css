@@ -4,7 +4,7 @@
     background-color: rgb(238, 232, 196);
 }
 
-.van-content {
+.about-van__content {
     padding: 3rem 1rem 1rem 1rem;
     width: 96%;
     margin: 0 auto;
@@ -12,14 +12,14 @@
     color: whitesmoke;
 }
 
-.van-content h1 {
+.about-van__title {
     line-height: 4rem;
     font-size: 4rem;
     margin-bottom: 1rem;
     color: #1b6400;
 }
 
-.grid-wrapper {
+.about-van__grid-wrapper {
     width: 96%;
     margin: 0 auto;
     display: grid;
@@ -28,15 +28,7 @@
     padding: 1rem 1rem 6rem 1rem;
 }
 
-.grid-wrapper h2 {
-    font-size: 3rem;
-}
-
-.grid-wrapper h3 {
-    font-size: 2rem;
-}
-
-.grid-box {
+.about-van__grid-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,13 +42,17 @@
     animation: scaleinout 5s ease-in-out infinite;
 }
 
-.grid-box i {
+.about-van__grid-box__i {
     color: whitesmoke;
     font-size: 5rem;
     margin-bottom: 1rem;
 }
 
-.weapons {
+.about-van__grid-box__title {
+    font-size: 3rem;
+}
+
+.about-van__grid-box--weapons {
     background: #8e2de2;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
@@ -65,7 +61,7 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.armour {
+.about-van__grid-box--armour {
     background: #396afc;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2948ff, #396afc);
@@ -74,7 +70,7 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.seals {
+.about-van__grid-box--seals {
     background: #7b4397;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #dc2430, #7b4397);
@@ -83,7 +79,7 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.cosmetics {
+.about-van__grid-box--cosmetics {
     background: #00bf8f;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #001510, #00bf8f);
@@ -99,26 +95,40 @@
     padding: 3rem 1rem 1rem 1rem;
 }
 
-.about-destiny p {
-    text-align: justify;
-    color: whitesmoke;
+.about-destiny__content {
+    width: 96%;
+    margin: 0 auto;
 }
 
-.about-destiny h1 {
+.about-destiny__title {
     color: #42b41c;
     line-height: 4rem;
     font-size: 4rem;
     margin-bottom: 1rem;
 }
 
-.about-destiny h2 {
+.about-destiny__text {
+    text-align: justify;
+    color: whitesmoke;
+}
+
+.about-destiny__grid-wrapper {
+    width: 96%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 1rem 1rem 6rem 1rem;
+}
+
+.about-destiny__gridbox__title {
     color: #42b41c;
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: 1rem;
 }
 
-.about-destiny iframe {
+.about-destiny__gridbox_title__iframe {
     width: 100%;
     border-radius: 1rem;
     box-shadow: rgba(255, 255, 255, 0.473) 0px 5px 15px;
