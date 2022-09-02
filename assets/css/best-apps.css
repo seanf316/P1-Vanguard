@@ -1,23 +1,37 @@
 /* Best Apps */
 
-#best-apps {
-    padding: 3rem 1rem 1rem 1rem;
+.best-apps {
     background-color: #0e2207;
+    padding: 3rem 1rem 3rem 1rem;
 }
 
-#best-apps h1 {
+.best-apps__content {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.best-apps__title {
     color: #42b41c;
     line-height: 4rem;
     font-size: 4rem;
     margin-bottom: 1rem;
 }
 
-#best-apps p {
+.best-apps__text {
     color: whitesmoke;
     text-align: justify;
+    margin-bottom: 1rem;
 }
 
-.app-card {
+.best-apps__row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 2rem;
+}
+
+.best-apps__card {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 90%;
@@ -31,11 +45,11 @@
     border: 3px solid whitesmoke;
 }
 
-.reverse {
+.row--reverse {
     flex-direction: row-reverse;
 }
 
-.bg-1 {
+.card--bg-1 {
     background: #8e2de2;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
@@ -44,7 +58,7 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.bg-2 {
+.card--bg-2 {
     background: #396afc;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2948ff, #396afc);
@@ -53,7 +67,7 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.bg-3 {
+.card--bg-3 {
     background: #7b4397;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #dc2430, #7b4397);
@@ -62,7 +76,7 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.bg-4 {
+.card--bg-4 {
     background: #00bf8f;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #001510, #00bf8f);
@@ -71,18 +85,18 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.app-card img {
+.best-apps__card__img {
     max-width: 100%;
     border-radius: 1rem;
     object-fit: cover;
 }
 
-.outline {
+.img--outline {
     outline: 2px solid whitesmoke;
     outline-offset: 4px;
 }
 
-.app-desc {
+.best-apps__card__desc {
     flex-basis: 550px;
     display: flex;
     flex-direction: column;
@@ -90,24 +104,95 @@
     padding: 0.5rem;
 }
 
-.app-desc h2 {
+.best-apps__card__title {
     padding: 0 0.5rem;
     color: #42b41c;
     font-size: 2rem;
 }
 
-.app-desc p {
+.best-apps__card__text {
     padding: 0.5rem;
     font-size: 1rem;
     color: whitesmoke;
 }
 
-.app-desc h3 {
+.best-apps__card__title2 {
     color: #42b41c;
     padding: 0.5rem;
 }
 
-.app-card .row {
+.best-apps__card__row {
+    display: flex;
+    gap: 2rem;
     padding: 0.5rem;
     justify-content: flex-start;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    
+    .best-apps__card__desc {
+        flex-basis: 550px;
+        display: flex;
+        flex-grow: 1;
+        padding: 0.5rem;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .best-apps__card__row {
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    
+    .best-apps__title {
+        line-height: 3rem;
+        font-size: 3rem;
+        color: #42b41c;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    
+    .best-apps__card {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 90%;
+        flex-grow: 1;
+        height: auto;
+        justify-content: center;
+        text-align: justify;
+        align-items: center;
+        padding: .5rem;
+        border-radius: 2rem;
+        border: 3px solid whitesmoke;
+    }
+
+    .best-apps__card__img {
+        max-width: 100%;
+        border-radius: 1rem;
+        margin-top: 1rem;
+        object-fit: cover;
+    }
+
+    .best-apps__card__desc {
+        flex-basis: 550px;
+        display: flex;
+        flex-grow: 1;
+        padding: 0.5rem;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .best-apps__card__text {
+        text-align: justify;
+    }
+
+    .best-apps__card__row {
+        justify-content: center;
+    }
 }
