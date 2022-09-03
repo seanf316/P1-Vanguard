@@ -2,6 +2,7 @@
 
 .about-van {
     background-color: rgb(238, 232, 196);
+    min-width: 100vw;
 }
 
 .about-van__content {
