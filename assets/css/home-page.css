@@ -189,7 +189,7 @@ footer {
 
 .footer__row__column__social-networks-item {
     margin: 0 2rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .footer__row__column__social-networks-icon {
@@ -371,11 +371,12 @@ footer {
 
     .footer__row__column__social-networks {
         display: flex;
+        gap: 1rem;
     }
 
     .footer__row__column__social-networks-item {
         margin: 0 1rem;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .footer__row__column__social-networks-icon {
