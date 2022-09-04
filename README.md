@@ -1,13 +1,51 @@
-
 <img src="./assets/images/logo.webp"/>
 
-[Vanguard can be viewed here.](https://seanf316.github.io/P1-Vanguard/)
+[Vanguard - Live Webpage](https://seanf316.github.io/P1-Vanguard/)
 
-Vanguard is a website aimed at players of the Destiny franchise. It is a single scrollable page website and has been designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential gamers.
+Vanguard is a website aimed at players of the Destiny franchise. It is a single scrollable page website and has been designed to be responsive and accessible on a range of devices, making it easy to navigate for potential gamers.
 
-<img src="./assets/images/amiresponsive.JPG"/>
+Vanguard's mission is to provide the best possible sites and apps to help any new Guardian who decides to join the Destiny game player base. The Destiny franchise can be very overwhelming for a kinder-Guardian (community name for a new player) so hopefully with our help and the help of the fantastic developers behind these sites/apps you should have the best tools at hand for your journey.
+
+<img src="./assets/readme/amiresponsive.JPG"/>
 
 ## User Experience (UX)
+
+- ### User stories
+
+  - #### First Time Visitor Goals
+
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site.
+    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content specific to my needs.
+    3. As a First Time Visitor, I want to be able to view the site on multiple devices.
+
+-   #### Returning Visitor Goals
+
+    1. As a Returning Visitor, I want to find out more information about the best third party sites and apps for the Destiny gaming franchise.
+    2. As a Returning Visitor, I want to learn more about the Destiny story and Lore.
+    3. As a Returning Visitor, I want to find the best way to get in contact with the developer.
+
+-   #### Frequent User Goals
+    1. As a Frequent User, I want to check to see if there are any newly added sites or apps.
+    2. As a Frequent User, I want to check to see if there are any new sections added to the site.
+    3. As a Frequent User, I want to sign up so that I am emailed any major updates and/or changes to the website.
+
+-   ### Design
+
+    -   #### Imagery
+        -   The large, background hero image on the splash page is designed to be striking and catch the user's attention. I wanted a Destiny related image that had a futuristic sci-fi aesthetic.
+    -   #### Colour Scheme
+        -   I wanted the color scheme to match with the hero image so variations of green and cream where used for backgrounds in the sections. I used whitesmoke and grey for the paragraphs and variations of green for all the headings. Black was used for hover effect on the anchor/button elements to contrast well with the greens chosen for the site. For the card background I used the some linear gradient colours to add some vibrancy to the asthectic.
+    -   #### Typography
+        -   The Poppins font is the main font used for the paragraphs throughout the website with Sans Serif as the fallback. I used font Exo 2 for all my headings. I felt that Poppins and Exo 2 worked really well together to provide that gaming text look for the site. All fonts where taken from Google Fonts and applied via @import method to CSS file.
+
+*   ### Wireframes
+
+    -   Home Page Wireframe - [View](<img src="./assets/readme/Desktop.png"/>)
+
+    -   Mobile Wireframe - [View](https://github.com/)
+
+    -   Contact Us Page Wireframe - [View](https://github.com/)
+
 
 Welcome seanf316,
 
@@ -35,15 +73,15 @@ In Gitpod you have superuser security privileges by default. Therefore you do no
 
 To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
+1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
+2. Scroll down to the _API Key_ and click _Reveal_
 3. Copy the key
 4. In Gitpod, from the terminal, run `heroku_config`
 5. Paste in your API key when asked
 
 You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+---
 
 ## Release History
 
@@ -77,7 +115,7 @@ We continually tweak and adjust this template to help give you the best experien
 
 **December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+---
 
 ## FAQ about the uptime script
 
