@@ -83,10 +83,6 @@ footer {
     height: 100vh;
 }
 
-.header__navbar__logo__img {
-    padding-right: 1rem;
-}
-
 .header__navbar {
     position: fixed;
     top: 0;
