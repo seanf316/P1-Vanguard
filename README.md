@@ -1,4 +1,13 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+
+<img src="./assets/images/logo.webp"/>
+
+[Vanguard can be viewed here.](https://seanf316.github.io/P1-Vanguard/)
+
+Vanguard is a website aimed at players of the Destiny franchise. It is a single scrollable page website and has been designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential gamers.
+
+<img src="./assets/images/amiresponsive.JPG"/>
+
+## User Experience (UX)
 
 Welcome seanf316,
 
