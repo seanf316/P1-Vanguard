@@ -12,19 +12,20 @@ Vanguard's mission is to provide the best possible sites and apps to help any ne
 
 - ### User stories
 
-  - #### First Time Visitor Goals
+    - #### First Time Visitor Goals
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site.
     2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content specific to my needs.
     3. As a First Time Visitor, I want to be able to view the site on multiple devices.
 
--   #### Returning Visitor Goals
+    -   #### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to find out more information about the best third party sites and apps for the Destiny gaming franchise.
     2. As a Returning Visitor, I want to learn more about the Destiny story and Lore.
     3. As a Returning Visitor, I want to find the best way to get in contact with the developer.
 
--   #### Frequent User Goals
+    -   #### Frequent User Goals
+
     1. As a Frequent User, I want to check to see if there are any newly added sites or apps.
     2. As a Frequent User, I want to check to see if there are any new sections added to the site.
     3. As a Frequent User, I want to sign up so that I am emailed any major updates and/or changes to the website.
@@ -35,17 +36,43 @@ Vanguard's mission is to provide the best possible sites and apps to help any ne
         -   The large, background hero image on the splash page is designed to be striking and catch the user's attention. I wanted a Destiny related image that had a futuristic sci-fi aesthetic.
     -   #### Colour Scheme
         -   I wanted the color scheme to match with the hero image so variations of green and cream where used for backgrounds in the sections. I used whitesmoke and grey for the paragraphs and variations of green for all the headings. Black was used for hover effect on the anchor/button elements to contrast well with the greens chosen for the site. For the card background I used the some linear gradient colours to add some vibrancy to the asthectic.
+        <img src="./assets/readme/coolors.png"/>
+
+
     -   #### Typography
         -   The Poppins font is the main font used for the paragraphs throughout the website with Sans Serif as the fallback. I used font Exo 2 for all my headings. I felt that Poppins and Exo 2 worked really well together to provide that gaming text look for the site. All fonts where taken from Google Fonts and applied via @import method to CSS file.
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](<img src="./assets/readme/Desktop.png"/>)
+    <details><summary>Desktop</summary>
+    <img src="./assets/wireframes/desktop-homepage.PNG" alt="Desktop Home-Page Wireframe">
+    <img src="./assets/wireframes/desktop-about-vanguard.PNG" alt="Desktop About Vanguard Wireframe">
+    <img src="./assets/wireframes/desktop-about-destiny.PNG" alt="Desktop About Destiny Wireframe">
+    <img src="./assets/wireframes/desktop-best-sites.PNG" alt="Desktop Best Sites Wireframe">
+    <img src="./assets/wireframes/desktop-best-apps.PNG" alt="Desktop Best Apps Wireframe">
+    <img src="./assets/wireframes/desktop-join-us.PNG" alt="Desktop Join Us Wireframe">
+    <img src="./assets/wireframes/desktop-footer.PNG" alt="Desktop Footer Wireframe">
+    </details>
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    <details><summary>Tablet</summary>
+    <img src="./assets/wireframes/tablet-homepage.PNG" alt="Desktop Home-Page Wireframe">
+    <img src="./assets/wireframes/tablet-about-van.PNG" alt="Desktop About Vanguard Wireframe">
+    <img src="./assets/wireframes/tablet-about-destiny.PNG" alt="Desktop About Destiny Wireframe">
+    <img src="./assets/wireframes/tablet-best-sites.PNG" alt="Desktop Best Sites Wireframe">
+    <img src="./assets/wireframes/tablet-best-apps.PNG" alt="Desktop Best Apps Wireframe">
+    <img src="./assets/wireframes/tablet-join-us.PNG" alt="Desktop Join Us Wireframe">
+    <img src="./assets/wireframes/tablet-footer.PNG" alt="Desktop Footer Wireframe">
+    </details>
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
-
+    <details><summary>Mobile</summary>
+    <img src="./assets/wireframes/mobile-homepage.png" alt="Desktop Home-Page Wireframe">
+    <img src="./assets/wireframes/mobile-about-van.png" alt="Desktop About Vanguard Wireframe">
+    <img src="./assets/wireframes/mobile-about-destiny.png" alt="Desktop About Destiny Wireframe">
+    <img src="./assets/wireframes/mobile-best-sites.png" alt="Desktop Best Sites Wireframe">
+    <img src="./assets/wireframes/mobile-best-apps.png" alt="Desktop Best Apps Wireframe">
+    <img src="./assets/wireframes/mobile-join-us.png" alt="Desktop Join Us Wireframe">
+    <img src="./assets/wireframes/mobile-footer.png" alt="Desktop Footer Wireframe">
+    </details>
 
 Welcome seanf316,
 
