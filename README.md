@@ -61,9 +61,8 @@ Vanguard's mission is to provide the best possible sites and apps to help any ne
 
 ## Features
 
--   Responsive on all device sizes
+### Navbar
 
--   Interactive elements
 
 ## Technologies Used
 
