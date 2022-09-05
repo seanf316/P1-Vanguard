@@ -62,6 +62,12 @@ This is my first portfolio project for [Code Institute](https://codeinstitute.ne
 ## Features
 
 ### Navbar
+<img src="./assets/readme/desktop-nav.PNG" alt="Desktop Navbar">
+<img src="./assets/readme/tablet-mobile-nav.PNG" alt="Responsive Navbar">
+<img src="./assets/readme/hamburger-nav.PNG" alt="Responsive Navbar Opened">
+The navigation bar is present on the homepage and hides when scrolling down but appears when scrolling up. It is easily noticeable, intuitive and easy to use. The
+navigation bar highlights the selected page where the user is located.
+On the left side is the site Logo with the navigation links to the right, the navbar is responsive and changes to the common hamburger menu style when moving to Tablet or Mobile devices.
 
 
 ## Technologies Used
