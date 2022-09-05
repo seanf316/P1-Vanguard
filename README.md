@@ -18,21 +18,21 @@ This is my first portfolio project for [Code Institute](https://codeinstitute.ne
 
     - #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site.
-        1. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content specific to my needs.
-        1. As a First Time Visitor, I want to be able to view the site on multiple devices.
+        -   As a First Time Visitor, I want to easily understand the main purpose of the site.
+        -   As a First Time Visitor, I want to be able to easily navigate throughout the site to find content specific to my needs.
+        -   As a First Time Visitor, I want to be able to view the site on multiple devices.
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find out more information about the best third party sites and apps for the Destiny gaming franchise.
-        1. As a Returning Visitor, I want to learn more about the Destiny story and Lore.
-        1. As a Returning Visitor, I want to find the best way to get in contact with the developer.
+        -   As a Returning Visitor, I want to find out more information about the best third party sites and apps for the Destiny gaming franchise.
+        -   As a Returning Visitor, I want to learn more about the Destiny story and Lore.
+        -   As a Returning Visitor, I want to find the best way to get in contact with the developer.
 
     -   #### Frequent User Goals
 
-        1. As a Frequent User, I want to check to see if there are any newly added sites or apps.
-        1. As a Frequent User, I want to check to see if there are any new sections added to the site.
-        1. As a Frequent User, I want to sign up so that I am emailed any major updates and/or changes to the website.
+        -   As a Frequent User, I want to check to see if there are any newly added sites or apps.
+        -   As a Frequent User, I want to check to see if there are any new sections added to the site.
+        -   As a Frequent User, I want to sign up so that I am emailed any major updates and/or changes to the website.
 
 -   ### Design
 
@@ -66,8 +66,27 @@ This is my first portfolio project for [Code Institute](https://codeinstitute.ne
 <img src="./assets/readme/tablet-mobile-nav.PNG" alt="Responsive Navbar">
 <img src="./assets/readme/hamburger-nav.PNG" alt="Responsive Navbar Opened">
 The navigation bar is present on the homepage and hides when scrolling down but appears when scrolling up. It is easily noticeable, intuitive and easy to use. The
-navigation bar highlights the selected page where the user is located.
-On the left side is the site Logo with the navigation links to the right, the navbar is responsive and changes to the common hamburger menu style when moving to Tablet or Mobile devices.
+navigation bar highlights the selected page where the user is located. On the left side is the site Logo with the navigation links to the right, the navbar is responsive and changes to the common hamburger menu style when moving to Tablet or Mobile devices.
+
+### About Vanguard Section
+<img src="./assets/readme/about-vanguard.PNG" alt="About Vanguard Section">
+The About Vanguard Section consists of a mission statement along with some flex boxes containing snippets of info from the game. Linear Gradient colors were used here to provide a bit of vibrancy to the boxes and a scale up-down animation for a pleasing experience.
+
+### Destiny's Story for Beginners Section
+<img src="./assets/readme/about-destiny.PNG" alt="Destiny's Story for Beginners Section">
+The Destiny's Story for Beginners Section provides the user with 4 videos detailing some of the history and lore of the Destiny game which can help the user understand the game and its universe. They were created and narrated by popular Destiny Youtuber " My name is Byf".
+
+### Best Sites Section
+<img src="./assets/readme/best-sites.PNG" alt="Best Sites Section">
+The Best Sites Section provides the user with a nice 4 card vertical layout with each card containing a image, title, site description and anchor tag linking to the site itself. The sites provided are the most popular third party sites for the Destiny Franchise and each site has its own purpose.
+
+### Best Apps Section
+<img src="./assets/readme/best-apps.PNG" alt="Best Apps Section">
+The Best Apps Section provides the user with a nice 4 card horizontal layout with each card containing a image, title, site description and anchor tag linking to the Apple app store and the Google playstore. The apps provided are the most popular third party apps for the Destiny Franchise and each site has its own purpose.
+
+### Join Us Section
+<img src="./assets/readme/join-us.PNG" alt="Join Us Section">
+The Join Us Section provides the user with a quote from one of the Destiny Franchise characters, a form and some custom merchandise images.
 
 
 ## Technologies Used
