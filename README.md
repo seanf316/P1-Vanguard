@@ -45,33 +45,15 @@ Vanguard's mission is to provide the best possible sites and apps to help any ne
 *   ### Wireframes
 
     <details><summary>Desktop</summary>
-    <img src="./assets/wireframes/desktop-homepage.PNG" alt="Desktop Home-Page Wireframe">
-    <img src="./assets/wireframes/desktop-about-vanguard.PNG" alt="Desktop About Vanguard Wireframe">
-    <img src="./assets/wireframes/desktop-about-destiny.PNG" alt="Desktop About Destiny Wireframe">
-    <img src="./assets/wireframes/desktop-best-sites.PNG" alt="Desktop Best Sites Wireframe">
-    <img src="./assets/wireframes/desktop-best-apps.PNG" alt="Desktop Best Apps Wireframe">
-    <img src="./assets/wireframes/desktop-join-us.PNG" alt="Desktop Join Us Wireframe">
-    <img src="./assets/wireframes/desktop-footer.PNG" alt="Desktop Footer Wireframe">
+    <img src="./assets/wireframes/desktop.png" alt="Desktop Wireframe">
     </details>
 
     <details><summary>Tablet</summary>
-    <img src="./assets/wireframes/tablet-homepage.PNG" alt="Desktop Home-Page Wireframe">
-    <img src="./assets/wireframes/tablet-about-van.PNG" alt="Desktop About Vanguard Wireframe">
-    <img src="./assets/wireframes/tablet-about-destiny.PNG" alt="Desktop About Destiny Wireframe">
-    <img src="./assets/wireframes/tablet-best-sites.PNG" alt="Desktop Best Sites Wireframe">
-    <img src="./assets/wireframes/tablet-best-apps.PNG" alt="Desktop Best Apps Wireframe">
-    <img src="./assets/wireframes/tablet-join-us.PNG" alt="Desktop Join Us Wireframe">
-    <img src="./assets/wireframes/tablet-footer.PNG" alt="Desktop Footer Wireframe">
+    <img src="./assets/wireframes/tablet.png" alt="Tablet Wireframe">
     </details>
 
     <details><summary>Mobile</summary>
-    <img src="./assets/wireframes/mobile-homepage.png" alt="Desktop Home-Page Wireframe">
-    <img src="./assets/wireframes/mobile-about-van.png" alt="Desktop About Vanguard Wireframe">
-    <img src="./assets/wireframes/mobile-about-destiny.png" alt="Desktop About Destiny Wireframe">
-    <img src="./assets/wireframes/mobile-best-sites.png" alt="Desktop Best Sites Wireframe">
-    <img src="./assets/wireframes/mobile-best-apps.png" alt="Desktop Best Apps Wireframe">
-    <img src="./assets/wireframes/mobile-join-us.png" alt="Desktop Join Us Wireframe">
-    <img src="./assets/wireframes/mobile-footer.png" alt="Desktop Footer Wireframe">
+    <img src="./assets/wireframes/mobile.png" alt="Mobile Wireframe">
     </details>
 
 Welcome seanf316,
