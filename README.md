@@ -18,21 +18,21 @@ This is my first portfolio project for [Code Institute](https://codeinstitute.ne
 
     - #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site.
-    1. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content specific to my needs.
-    1. As a First Time Visitor, I want to be able to view the site on multiple devices.
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site.
+        1. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content specific to my needs.
+        1. As a First Time Visitor, I want to be able to view the site on multiple devices.
 
     -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find out more information about the best third party sites and apps for the Destiny gaming franchise.
-    1. As a Returning Visitor, I want to learn more about the Destiny story and Lore.
-    1. As a Returning Visitor, I want to find the best way to get in contact with the developer.
+        1. As a Returning Visitor, I want to find out more information about the best third party sites and apps for the Destiny gaming franchise.
+        1. As a Returning Visitor, I want to learn more about the Destiny story and Lore.
+        1. As a Returning Visitor, I want to find the best way to get in contact with the developer.
 
     -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check to see if there are any newly added sites or apps.
-    1. As a Frequent User, I want to check to see if there are any new sections added to the site.
-    1. As a Frequent User, I want to sign up so that I am emailed any major updates and/or changes to the website.
+        1. As a Frequent User, I want to check to see if there are any newly added sites or apps.
+        1. As a Frequent User, I want to check to see if there are any new sections added to the site.
+        1. As a Frequent User, I want to sign up so that I am emailed any major updates and/or changes to the website.
 
 -   ### Design
 
