@@ -19,30 +19,28 @@ This is my first portfolio project for [Code Institute](https://codeinstitute.ne
     - #### First Time Visitor Goals
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site.
-    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content specific to my needs.
-    3. As a First Time Visitor, I want to be able to view the site on multiple devices.
+    1. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content specific to my needs.
+    1. As a First Time Visitor, I want to be able to view the site on multiple devices.
 
     -   #### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to find out more information about the best third party sites and apps for the Destiny gaming franchise.
-    2. As a Returning Visitor, I want to learn more about the Destiny story and Lore.
-    3. As a Returning Visitor, I want to find the best way to get in contact with the developer.
+    1. As a Returning Visitor, I want to learn more about the Destiny story and Lore.
+    1. As a Returning Visitor, I want to find the best way to get in contact with the developer.
 
     -   #### Frequent User Goals
 
     1. As a Frequent User, I want to check to see if there are any newly added sites or apps.
-    2. As a Frequent User, I want to check to see if there are any new sections added to the site.
-    3. As a Frequent User, I want to sign up so that I am emailed any major updates and/or changes to the website.
+    1. As a Frequent User, I want to check to see if there are any new sections added to the site.
+    1. As a Frequent User, I want to sign up so that I am emailed any major updates and/or changes to the website.
 
 -   ### Design
 
     -   #### Imagery
         -   The large, background hero image on the splash page is designed to be striking and catch the user's attention. I wanted a Destiny related image that had a futuristic sci-fi aesthetic.
     -   #### Colour Scheme
-        -   I wanted the color scheme to match with the hero image so variations of green and cream where used for backgrounds in the sections. I used whitesmoke and grey for the paragraphs and variations of green for all the headings. Black was used for hover effect on the anchor/button elements to contrast well with the greens chosen for the site. For the card background I used the some linear gradient colours to add some vibrancy to the asthectic.
+        -   I wanted the color scheme to match with the hero image so variations of green and cream where used for backgrounds in the sections. I used whitesmoke and grey for the paragraphs and variations of green for all the headings. Black was used for the navbar/footer and hover effect on the anchor/button elements to contrast well with the greens chosen for the site. For the card background I used the some linear gradient colours to add some vibrancy to the asthectic.
         <img src="./assets/readme/coolors.png"/>
-
-
     -   #### Typography
         -   The Poppins font is the main font used for the paragraphs throughout the website with Sans Serif as the fallback. I used font Exo 2 for all my headings. I felt that Poppins and Exo 2 worked really well together to provide that gaming text look for the site. All fonts where taken from Google Fonts and applied via @import method to CSS file.
 
@@ -52,11 +50,9 @@ This is my first portfolio project for [Code Institute](https://codeinstitute.ne
     <details><summary>Desktop</summary>
     <img src="./assets/wireframes/desktop.png" alt="Desktop Wireframe">
     </details>
-
     <details><summary>Tablet</summary>
     <img src="./assets/wireframes/tablet.png" alt="Tablet Wireframe">
     </details>
-
     <details><summary>Mobile</summary>
     <img src="./assets/wireframes/mobile.png" alt="Mobile Wireframe">
     </details>
