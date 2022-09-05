@@ -1,12 +1,16 @@
 # Vanguard
 
-[Vanguard - Live Webpage](https://seanf316.github.io/P1-Vanguard/)
-
 Vanguard is a website aimed at players of the Destiny franchise. It is a single scrollable page website and has been designed to be responsive and accessible on a range of devices, making it easy to navigate for potential gamers.
 
-Vanguard's mission is to provide the best possible sites and apps to help any new Guardian who decides to join the Destiny game player base. The Destiny franchise can be very overwhelming for a kinder-Guardian (community name for a new player) so hopefully with our help and the help of the fantastic developers behind these sites/apps you should have the best tools at hand for your journey.
+Developed by Sean Finn.
 
 <img src="./assets/readme/amiresponsive.JPG"/>
+
+[Vanguard - Live Webpage](https://seanf316.github.io/P1-Vanguard/) (Right click to open in new tab)
+
+## Project Goals
+
+This is my first portfolio project for [Code Institute](https://codeinstitute.net/) and my goal with this project is to display my newly acquired HTML & CSS skills. I wanted to design an aesthecticly pleasing and responisive website site that provides the best possible sites and apps to help any new Guardian who decides to join the Destiny game player base.
 
 ## User Experience (UX)
 
