@@ -150,3 +150,7 @@ To check accessibilty of my site I used the [WAVE Web Accessibility Evaluation T
     <details><summary>WAVE Web Accessibility Evaluation Tool</summary>
     <img src="./assets/readme/wave-webaim-test.PNG" alt="WAVE Web Accessibility Evaluation Tool Results">
     </details>
+For performance and more accessibilty Google Lighthouse was used throughout:
+    <details><summary>WAVE Web Accessibility Evaluation Tool</summary>
+    <img src="./assets/readme/wave-webaim-test.PNG" alt="WAVE Web Accessibility Evaluation Tool Results">
+    </details>
