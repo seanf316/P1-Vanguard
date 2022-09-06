@@ -88,7 +88,6 @@ The Best Apps Section provides the user with a nice 4 card horizontal layout wit
 <img src="./assets/readme/join-us.PNG" alt="Join Us Section">
 The Join Us Section at the beginning of the section the user will see a quote from one of the Destiny Franchise characters and a bit of incentive text to join us. There is a form below that also contains a feedback area and some custom merchandise images.
 
-
 ## Technologies Used
 
 ### Languages Used
@@ -129,3 +128,12 @@ The Join Us Section at the beginning of the section the user will see a quote fr
     - Am I Responsive was used to produce the website mockup.
 
 [Back to top &uarr;](#Vanguard)
+
+## Testing
+The W3C Markup Validator and W3C CSS Validator Services were used to validate project to ensure there were no syntax errors in the project.
+    <details><summary>W3C Markup Validator</summary>
+    <img src="./assets/readme/w3-validator-html.PNG" alt="W3C Markup Validator Results">
+    </details>
+    <details><summary>W3C CSS Validator</summary>
+    <img src="./assets/readme/w3-validator-html.PNG" alt="W3C Markup Validator Results">
+    </details>
