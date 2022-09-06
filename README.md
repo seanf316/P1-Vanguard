@@ -86,7 +86,7 @@ The Best Apps Section provides the user with a nice 4 card horizontal layout wit
 
 ### Join Us Section
 <img src="./assets/readme/join-us.PNG" alt="Join Us Section">
-The Join Us Section provides the user with a quote from one of the Destiny Franchise characters, a form and some custom merchandise images.
+The Join Us Section at the beginning of the section the user will see a quote from one of the Destiny Franchise characters and a bit of incentive text to join us. There is a form below that also contains a feedback area and some custom merchandise images.
 
 
 ## Technologies Used
