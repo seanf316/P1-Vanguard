@@ -4,7 +4,7 @@ Vanguard is a website aimed at players of the Destiny franchise. It is a single 
 
 Developed by Sean Finn.
 
-<img src="./assets/readme/amiresponsive.JPG"/>
+<img src="./assets/readme/amiresponsive.JPG" alt="Am I Responsive Website Mockup"/>
 
 [Vanguard - Live Webpage](https://seanf316.github.io/P1-Vanguard/) (Right click to open in new tab)
 
@@ -40,7 +40,7 @@ This is my first portfolio project for [Code Institute](https://codeinstitute.ne
         -   The large, background hero image on the splash page is designed to be striking and catch the user's attention. I wanted a Destiny related image that had a futuristic sci-fi aesthetic.
     -   #### Colour Scheme
         -   I wanted the color scheme to match with the hero image so variations of green and cream where used for backgrounds in the sections. I used whitesmoke and grey for the paragraphs and variations of green for all the headings. Black was used for the navbar/footer and hover effect on the anchor/button elements to contrast well with the greens chosen for the site. For the card background I used the some linear gradient colours to add some vibrancy to the asthectic.
-        <img src="./assets/readme/coolors.png"/>
+        <img src="./assets/readme/coolors.png" alt="Coolors Image"/>
     -   #### Typography
         -   The Poppins font is the main font used for the paragraphs throughout the website with Sans Serif as the fallback. I used font Exo 2 for all my headings. I felt that Poppins and Exo 2 worked really well together to provide that gaming text look for the site. All fonts where taken from Google Fonts and applied via @import method to CSS file.
 
@@ -151,6 +151,85 @@ To check accessibilty of my site I used the [WAVE Web Accessibility Evaluation T
     <img src="./assets/readme/wave-webaim-test.PNG" alt="WAVE Web Accessibility Evaluation Tool Results">
     </details>
 For performance and more accessibilty Google Lighthouse was used throughout:
-    <details><summary>WAVE Web Accessibility Evaluation Tool</summary>
-    <img src="./assets/readme/wave-webaim-test.PNG" alt="WAVE Web Accessibility Evaluation Tool Results">
-    </details>
+#### Desktop
+<img src="./assets/readme/lighthouse-desktop.PNG" alt="Lighthouse Desktop Score">
+<details><summary>Performance</summary>
+<img src="./assets/readme/lighthouse-desktop-performance.PNG" alt="Lighthouse Desktop Performance Score">
+</details>
+<details><summary>Accessibility</summary>
+<img src="./assets/readme/lighthouse-desktop-accessibility.PNG" alt="Lighthouse Desktop Accessibility Score">
+</details>
+<details><summary>Best Practices</summary>
+<img src="./assets/readme/lighthouse-desktop-best-practices.PNG" alt="Lighthouse Desktop Best Practices Score">
+</details>
+<details><summary>SEO</summary>
+<img src="./assets/readme/lighthouse-desktop-seo.PNG" alt="Lighthouse Desktop SEO Score">
+</details>
+
+#### Mobile
+<img src="./assets/readme/lighthouse-mobile.PNG" alt="Lighthouse Mobile Score">
+<details><summary>Performance</summary>
+<img src="./assets/readme/lighthouse-mobile-performance.PNG" alt="Lighthouse Mobile Performance Score">
+</details>
+<details><summary>Accessibility</summary>
+<img src="./assets/readme/lighthouse-mobile-accessibility.PNG" alt="Lighthouse Mobile Accessibility Score">
+</details>
+<details><summary>Best Practices</summary>
+<img src="./assets/readme/lighthouse-mobile-best-practices.PNG" alt="Lighthouse Mobile Best Practices Score">
+</details>
+<details><summary>SEO</summary>
+<img src="./assets/readme/lighthouse-mobile-seo.PNG" alt="Lighthouse Mobile SEO Score">
+</details>
+
+#### Lighthouse errors
+At Desktop & Mobile the Best Practices score is 92 - This is due to to a cookie issue with embeded Youtube videos. Below you will find some screenshots detailing the errors:
+<details><summary>Chrome Devtools Errors</summary>
+<img src="./assets/readme/lighthouse-desktop-dev-tools warning.PNG" alt="Devtools Error">
+<img src="./assets/readme/lighthouse-desktop-dev-tools warning2.PNG" alt="Devtools Error">
+<img src="./assets/readme/lighthouse-desktop-dev-tools warning3.PNG" alt="Devtools Error">
+</details>
+I have researched this issue on stackoverflow and spoke to my mentor and have come to the conclusion I cant fix at this time but will look to resolve in future updates.
+When Youtube videos are removed and Lighthouse is run a score of 100 is received in Best Practices:
+<details><summary>Youtube Videos Removed</summary>
+<img src="./assets/readme/lighthouse-desktop-best-practices-youtube-videos-removed.PNG" alt="Lighthouse Best Practices Score with Youtube Videos Removed"/>
+</details>
+
+### Further Testing
+- The website was tested on Google Chrome, Internet Explorer, Microsoft Edge, Mozilla Firefox and Safari browsers.
+- The website was viewed on a variety of devices such as Desktop, Laptop, Apples Products (Macbook, IPad Pro, Iphone 13 Pro, Iphone 8) and a range of Android devices (Samsung Note 10+, Samsung S20 Plus, Samsung Tab S7+, Oppo mobile).
+- A large amount of testing was done to ensure that all pages were linking correctly.
+- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues. Some co-workers also helped out with testing.
+
+### Testing User Stories from User Experience (UX) Section
+- #### First Time Visitor Goals
+
+    -   As a First Time Visitor, I want to easily understand the main purpose of the site.
+        - Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the section of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
+        - The user will be able to understand what the site is about with the text that appears on the Hero Image.
+        - The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the website.
+    -   As a First Time Visitor, I want to be able to easily navigate throughout the site to find content specific to my needs.
+        - The site has been designed to be fluid easy to navigate. At the top of page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+        - The navbar dissappears when user scrolls down but re-appears when the user scrolls up to allow ease of access to the navbar.
+        - The logo in the footer also acts as a link to the site so by clicking the user will be brought back to the homepage.
+    -   As a First Time Visitor, I want to be able to view the site on multiple devices.
+
+- #### Returning Visitor Goals
+
+    -   As a Returning Visitor, I want to find out more information about the best third party sites and apps for the Destiny gaming franchise.
+        - By selecting the Best Sites or Best Apps links from the navbar the user will be able to locate the information that they require.
+        - There is a call to action for each item in the Best Sites and Best Apps sections.
+    -   As a Returning Visitor, I want to learn more about the Destiny story and Lore.
+        - By selecting the About Vanguard section from the navbar the user will be able to find out about the site itself and the Destiny story with 4 videos provided.
+    -   As a Returning Visitor, I want to find the best way to get in contact with the site developer.
+        - If the user selects the Join Us section in the navbar they will be able to join the website and provide feedback, also social media links are provided by way of icons in the footer.
+
+-   #### Frequent User Goals
+
+    -   As a Frequent User, I want to check to see if there are any newly added sites or apps.
+        - The user would already be comfortable with the website layout and would be able to navigate to the Best Sites and Best Apps sections to see if any new sites/apps have been added.
+    -   As a Frequent User, I want to check to see if there are any new sections added to the site.
+        - The user would already be familiar with the website layout and would be able to navigate the site to see if new sections have been added.
+    -   As a Frequent User, I want to sign up so that I am emailed any major updates and/or changes to the website.
+        - In the Join Us section which can be accessed easily from the navbar or by scrolling there is a sign-up form. Alternatively users could check out the social media accounts for update announcments.
+
+[Back to top &uarr;](#Vanguard)
