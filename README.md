@@ -26,7 +26,7 @@ This is my first portfolio project for [Code Institute](https://codeinstitute.ne
 
         -   As a Returning Visitor, I want to find out more information about the best third party sites and apps for the Destiny gaming franchise.
         -   As a Returning Visitor, I want to learn more about the Destiny story and Lore.
-        -   As a Returning Visitor, I want to find the best way to get in contact with the developer.
+        -   As a Returning Visitor, I want to find the best way to get in contact with the site developer.
 
     -   #### Frequent User Goals
 
@@ -130,10 +130,23 @@ The Join Us Section at the beginning of the section the user will see a quote fr
 [Back to top &uarr;](#Vanguard)
 
 ## Testing
+
+### W3 Validators
 The W3C Markup Validator and W3C CSS Validator Services were used to validate project to ensure there were no syntax errors in the project.
     <details><summary>W3C Markup Validator</summary>
     <img src="./assets/readme/w3-validator-html.PNG" alt="W3C Markup Validator Results">
     </details>
     <details><summary>W3C CSS Validator</summary>
-    <img src="./assets/readme/w3-validator-html.PNG" alt="W3C Markup Validator Results">
+    <img src="./assets/readme/w3-validator-css.PNG" alt="W3C CSS Validator Results">
+    </details>
+
+The warnings that appear in the W3C CSS Validator are for the below which are being used for the linear gradient backgrounds as fallback for old browsers:
+    <details><summary>W3C CSS Validator Warnings</summary>
+    <img src="./assets/readme/w3-validator-css-warnings.PNG" alt="W3C CSS Validator Warnings">
+    </details>
+
+### Accessibility & Performance
+To check accessibilty of my site I used the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) and received no errors in the result:
+    <details><summary>WAVE Web Accessibility Evaluation Tool</summary>
+    <img src="./assets/readme/wave-webaim-test.PNG" alt="WAVE Web Accessibility Evaluation Tool Results">
     </details>
