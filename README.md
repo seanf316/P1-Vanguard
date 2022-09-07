@@ -294,13 +294,6 @@ When reducing the screen size, the 2nd and 4th card content were not flowing the
 <details><summary>Fix</summary>
 To resolve the issue, I applied a flex-direction: row-reverse class to the 2nd and 4th cards only.
 </details>
-Hero Image
-<details><summary>Bug</summary>
-Hero Image was overflowing.
-</details>
-<details><summary>Fix</summary>
-I applied overflow-x: hidden; to the body.
-</details>
 Best Sites card Tablet Layout
 <details><summary>Bug</summary>
 The Best Sites cards were not spacing correctly in tablet view and were grouped to the left of the screen.
