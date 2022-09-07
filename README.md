@@ -150,7 +150,7 @@ To check accessibilty of my site I used the [WAVE Web Accessibility Evaluation T
     <details><summary>WAVE Web Accessibility Evaluation Tool</summary>
     <img src="./assets/readme/wave-webaim-test.PNG" alt="WAVE Web Accessibility Evaluation Tool Results">
     </details>
-For performance and more accessibilty Google Lighthouse was used throughout:
+For performance and more accessibilty testing Google Lighthouse was used throughout:
 #### Desktop
 <img src="./assets/readme/lighthouse-desktop.PNG" alt="Lighthouse Desktop Score">
 <details><summary>Performance</summary>
@@ -183,7 +183,7 @@ For performance and more accessibilty Google Lighthouse was used throughout:
 
 #### Lighthouse errors
 At Desktop & Mobile the Best Practices score is 92 - This is due to to a cookie issue with embeded Youtube videos. Below you will find some screenshots detailing the errors:
-<details><summary>Chrome Devtools Errors</summary>
+<details><summary>Desktop/Mobile Chrome Devtools Errors</summary>
 <img src="./assets/readme/lighthouse-desktop-dev-tools warning.PNG" alt="Devtools Error">
 <img src="./assets/readme/lighthouse-desktop-dev-tools warning2.PNG" alt="Devtools Error">
 <img src="./assets/readme/lighthouse-desktop-dev-tools warning3.PNG" alt="Devtools Error">
@@ -193,6 +193,12 @@ When Youtube videos are removed and Lighthouse is run a score of 100 is received
 <details><summary>Youtube Videos Removed</summary>
 <img src="./assets/readme/lighthouse-desktop-best-practices-youtube-videos-removed.PNG" alt="Lighthouse Best Practices Score with Youtube Videos Removed"/>
 </details>
+
+At Mobile the Performance score is 92 - Below you will find some screenshots detailing the errors:
+<details><summary>Mobile Performance Errors</summary>
+<img src="./assets/readme/lighthouse-mobile-performance-issues.PNG" alt="Lighthouse Mobile Performance Errors">
+</details>
+I have researched this issue by clicking the Learn more link in Lighthouse and the fixes require knowledge of Javascript/Plugins so I have come to the conclusion I cant fix at this time but will look to resolve in future updates.
 
 ### Further Testing
 - The website was tested on Google Chrome, Internet Explorer, Microsoft Edge, Mozilla Firefox and Safari browsers.
@@ -231,5 +237,35 @@ When Youtube videos are removed and Lighthouse is run a score of 100 is received
         - The user would already be familiar with the website layout and would be able to navigate the site to see if new sections have been added.
     -   As a Frequent User, I want to sign up so that I am emailed any major updates and/or changes to the website.
         - In the Join Us section which can be accessed easily from the navbar or by scrolling there is a sign-up form. Alternatively users could check out the social media accounts for update announcments.
+
+### Bugs/Fixes
+Lighthouse Best Practice Score dropped to 83
+<details><summary>Bug</summary>
+When placing youtube videos into html the Lighthouse best practice score went from 100 to 83 
+</details>
+<details><summary>Fix</summary>
+Upon researhing this issue I was able to get the score into the 90s by removing the enhanced privacy mode in the iframes
+</details>
+Best Apps Layout not functioning as expected
+<details><summary>Bug</summary>
+When reducing the screen size the 2nd and 4th card content where not flowing the same as the 1st and 3rd due to my layout so the images where appearing under the text due to flex direction being default to row.
+</details>
+<details><summary>Fix</summary>
+To resolve the issue I applied a flex-direction: row-reverse class to the 2nd and 4th cards only.
+</details>
+Hero Image
+<details><summary>Bug</summary>
+Hero Image was overflowing.
+</details>
+<details><summary>Fix</summary>
+I applied overflow-x: hidden; to the body.
+</details>
+Best Sites card Tablet Layout
+<details><summary>Bug</summary>
+The Best Sites cards were not spacing correctly in tablet view and were grouping to the left of the screen.
+</details>
+<details><summary>Fix</summary>
+I applied justify-content: space-around; to the parent flex container.
+</details>
 
 [Back to top &uarr;](#Vanguard)
