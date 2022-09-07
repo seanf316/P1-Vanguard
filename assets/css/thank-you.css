@@ -1,3 +1,43 @@
+/* Global */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Exo 2', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cta {
+    padding: 0.4rem 1rem;
+    border: 2px solid whitesmoke;
+    background-color: #42b41c;
+    border-radius: 2rem;
+    font-weight: bold;
+    color: black !important;
+}
+
+.cta:hover,
+.cta:focus {
+    padding: 0.4rem 1rem;
+    border: 2px solid rgb(212, 200, 200);
+    background-color: black;
+    border-radius: 2rem;
+    font-weight: bold;
+    color: #42b41c !important;
+}
+
 /* Thank You */
 .thank-you {
     width: 100%;
