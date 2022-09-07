@@ -318,6 +318,41 @@ footer {
     }
 }
 
+@media only screen and (max-width: 900px) and (orientation: landscape) {
+
+    /* Navbar */
+    .header__navbar__nav-menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    /* Homepage */
+    .header__content {
+        position: absolute;
+        margin: 10rem auto;
+        width: 100%;
+        color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        animation: movefromleft 3s ease-in;
+    }
+
+    .header__content__title {
+        font-size: 2rem;
+    }
+    
+    .header__content__title2 {
+        font-size: 1.2rem;
+        margin-bottom: 0.8em;
+        color: whitesmoke;
+    }
+
+}
+
 /* Media Query for Mobile*/
 
 @media only screen and (max-width: 650px) {
