@@ -46,7 +46,6 @@ header {
     background-image: url("../images/witch.webp");
     background-position: bottom;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.315);
 }
 
 footer {
@@ -350,7 +349,6 @@ footer {
         margin-bottom: 0.8em;
         color: whitesmoke;
     }
-
 }
 
 /* Media Query for Mobile*/
