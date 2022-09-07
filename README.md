@@ -8,6 +8,26 @@ Developed by Sean Finn.
 
 [Vanguard - Live Webpage](https://seanf316.github.io/P1-Vanguard/) (Right-click to open in a new tab)
 
+## Table of Content
+1. [Project Goals](#project-goals)
+1. [User Experience (UX)](#user-experience-ux)
+    - [User stories](#user-stories)
+    - [Design](#design)
+    - [Wireframes](#wireframes)
+1. [Features](#features)
+1. [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Frameworks and Tools Used](#frameworks-and-tools-used)
+1. [Testing](#testing)
+    - [W3 Validators](#w3-validators)
+    - [Accessibility and Performance](#accessibility-and-performance)
+    - [Further Testing](#further-testing)
+    - [Testing User Stories from the User Experience (UX) Section](#testing-user-stories-from-the-user-experience-ux-section)
+    - [Bugs and Fixes](#bugs-and-fixes)
+1. [Deployment](#deployment)
+1. [Credits](#credits)
+1. [Acknowledgements](#acknowledgements)
+
 ## Project Goals
 
 This is my first portfolio project for [Code Institute](https://codeinstitute.net/) and my goal with this project is to display my newly acquired HTML & CSS skills. I wanted to design an aesthetically pleasing and responsive website site that provides the best possible sites and apps to help any new Guardian who decides to join the Destiny game player base.
@@ -105,7 +125,7 @@ The footer is placed at the bottom of the page. It contains the custom site logo
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 -   [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
-### Frameworks, Libraries & Programs Used
+### Frameworks and Tools Used
 
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Poppins' and 'Exo 2' fonts into the style.css file which is used on all pages throughout the project.
@@ -158,7 +178,7 @@ The warnings that appear in the W3C CSS Validator are for the below which are be
 <img src="./assets/readme/w3-validator-css-warnings.PNG" alt="W3C CSS Validator Warnings">
 </details>
 
-### Accessibility & Performance
+### Accessibility and Performance
 To check the accessibility of my site, I used the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) and received no errors in the result:
 <details><summary>WAVE Web Accessibility Evaluation Tool</summary>
 <img src="./assets/readme/wave-webaim-test.PNG" alt="WAVE Web Accessibility Evaluation Tool Results">
@@ -258,7 +278,7 @@ I have researched this issue by clicking the Learn more link in Lighthouse and t
     -   As a Frequent User, I want to sign up so that I am emailed any major updates and/or changes to the website.
         - In the Join Us section, which can be accessed easily from the navbar or by scrolling, there is a sign-up form. Alternatively, users could check out our social media accounts for updated announcements.
 
-### Bugs/Fixes
+### Bugs and Fixes
 Lighthouse Best Practice Score dropped to 83
 <details><summary>Bug</summary>
 When placing YouTube videos into HTML the Lighthouse best practice score went from 100 to 83 
