@@ -88,6 +88,10 @@ The Best Apps Section provides the user with a nice 4 card horizontal layout wit
 <img src="./assets/readme/join-us.PNG" alt="Join Us Section">
 The Join Us Section at the beginning of the section the user will see a quote from one of the Destiny Franchise characters and a bit of incentive text to join us. There is a form below that also contains a feedback area and some custom merchandise images.
 
+### Thank You Message
+<img src="./assets/readme/thank-you.PNG" alt="Thank You Message">
+When the user clicks Join Us on the form they are met with a Thank You message and confirmation that their registration is complete. There is an anchor tag linked back to main site.
+
 ### Footer
 <img src="./assets/readme/footer.PNG" alt="Footer">
 The footer is placed at the bottom of the page. It contains the custom site logo which acts as a link to the site and the social medias links displayed with icons provided by Font Awesome. There is also a small portion of text for the Copyright/Disclaimer.
@@ -132,6 +136,8 @@ The footer is placed at the bottom of the page. It contains the custom site logo
     - Grammarly was used to check typography.
 1. [Am I Responsive](https://ui.dev/amiresponsive)
     - Am I Responsive was used to produce the website mockup.
+1. [favicon.io](https://favicon.io/)
+    - favicon.io was used to create my sites favicon.
 
 [Back to top &uarr;](#Vanguard)
 
@@ -139,25 +145,26 @@ The footer is placed at the bottom of the page. It contains the custom site logo
 
 ### W3 Validators
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the code used in the project to ensure there were no syntax errors.
-    <details><summary>W3C Markup Validator</summary>
-    <img src="./assets/readme/w3-validator-html.PNG" alt="W3C Markup Validator Results">
-    </details>
-    <details><summary>W3C CSS Validator</summary>
-    <img src="./assets/readme/w3-validator-css.PNG" alt="W3C CSS Validator Results">
-    </details>
+<details><summary>W3C Markup Validator</summary>
+<img src="./assets/readme/w3-validator-html.PNG" alt="W3C Markup Validator Results">
+</details>
+<details><summary>W3C CSS Validator</summary>
+<img src="./assets/readme/w3-validator-css.PNG" alt="W3C CSS Validator Results">
+</details>
 
 The warnings that appear in the W3C CSS Validator are for the below which are being used for the linear gradient backgrounds as fallback for old browsers:
-    <details><summary>W3C CSS Validator Warnings</summary>
-    <img src="./assets/readme/w3-validator-css-warnings.PNG" alt="W3C CSS Validator Warnings">
-    </details>
+<details><summary>W3C CSS Validator Warnings</summary>
+<img src="./assets/readme/w3-validator-css-warnings.PNG" alt="W3C CSS Validator Warnings">
+</details>
 
 ### Accessibility & Performance
 To check accessibilty of my site I used the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) and received no errors in the result:
-    <details><summary>WAVE Web Accessibility Evaluation Tool</summary>
-    <img src="./assets/readme/wave-webaim-test.PNG" alt="WAVE Web Accessibility Evaluation Tool Results">
-    </details>
+<details><summary>WAVE Web Accessibility Evaluation Tool</summary>
+<img src="./assets/readme/wave-webaim-test.PNG" alt="WAVE Web Accessibility Evaluation Tool Results">
+</details>
+
 For performance and more accessibilty testing Google Lighthouse was used throughout:
-#### Desktop
+#### Main Page - Desktop
 <img src="./assets/readme/lighthouse-desktop.PNG" alt="Lighthouse Desktop Score">
 <details><summary>Performance</summary>
 <img src="./assets/readme/lighthouse-desktop-performance.PNG" alt="Lighthouse Desktop Performance Score">
@@ -172,7 +179,7 @@ For performance and more accessibilty testing Google Lighthouse was used through
 <img src="./assets/readme/lighthouse-desktop-seo.PNG" alt="Lighthouse Desktop SEO Score">
 </details>
 
-#### Mobile
+#### Main Page - Mobile
 <img src="./assets/readme/lighthouse-mobile.PNG" alt="Lighthouse Mobile Score">
 <details><summary>Performance</summary>
 <img src="./assets/readme/lighthouse-mobile-performance.PNG" alt="Lighthouse Mobile Performance Score">
@@ -186,6 +193,12 @@ For performance and more accessibilty testing Google Lighthouse was used through
 <details><summary>SEO</summary>
 <img src="./assets/readme/lighthouse-mobile-seo.PNG" alt="Lighthouse Mobile SEO Score">
 </details>
+
+#### Thank You Page - Desktop
+<img src="./assets/readme/thank-you-desktop.PNG" alt="Lighthouse Desktop Score">
+
+#### Thank You Page - Mobile
+<img src="./assets/readme/thank-you-mobile.PNG" alt="Lighthouse Desktop Score">
 
 #### Lighthouse errors
 At Desktop & Mobile the Best Practices score is 92 - This is due to to a cookie issue with embeded Youtube videos. Below you will find some screenshots detailing the errors:
