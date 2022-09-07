@@ -53,12 +53,6 @@ footer {
     background-color: rgb(0, 0, 0);
 }
 
-.active-link {
-    color: #42b41c !important;
-    text-decoration: 3px solid overline;
-    text-decoration-color: whitesmoke;
-}
-
 .cta {
     padding: 0.4rem 1rem;
     border: 2px solid whitesmoke;
@@ -76,6 +70,7 @@ footer {
     border-radius: 2rem;
     font-weight: bold;
     color: #42b41c !important;
+    text-decoration: none !important;
 }
 
 /* Header*/
@@ -134,7 +129,7 @@ footer {
 .header__navbar__nav-link:focus {
     color: #42b41c;
     text-decoration: 3px solid underline;
-    text-decoration-color: black;
+    text-decoration-color: whitesmoke;
     text-underline-offset: 5px;
 }
 

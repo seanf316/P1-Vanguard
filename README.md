@@ -1,6 +1,6 @@
 # Vanguard
 
-Vanguard is a website aimed at players of the Destiny franchise. It is a single scrollable page website and has been designed to be responsive and accessible on a range of devices, making it easy to navigate for potential gamers.
+Vanguard is a website aimed at players of the Destiny franchise. It is a single scrollable page website and has been designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
 
 Developed by Sean Finn.
 
