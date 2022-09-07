@@ -137,6 +137,8 @@ The footer is placed at the bottom of the page. It contains the custom site logo
     - Am I Responsive was used to produce the website mockup.
 1. [favicon.io](https://favicon.io/)
     - favicon.io was used to create my site's favicon.
+1. [uiGradients](https://uigradients.com/)
+    - uiGradients provided the linear gradient colors used on the cards in the site.
 
 [Back to top &uarr;](#Vanguard)
 
@@ -308,5 +310,30 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 1. Log in to GitHub and locate the repository [P1-Vanguard](https://github.com/seanf316/P1-Vanguard)
 2. At the top of the Repository (not the top of the page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
+
+[Back to top &uarr;](#Vanguard)
+
+## Credits
+1. [Code Institute Template](https://github.com/Code-Institute-Org/gitpod-full-template)
+    - This repository was created using the template provided by Code Institute. Also, without the knowledge gained through the course work, I could not be able to create this site so thank you Code Institute.
+1. [Wallpaper Abyss](https://wall.alphacoders.com/)
+    - Wallpaper Abyss had a wide range of fantastic Destiny-related images and it was here that I got my hero image.
+1. [DEV](https://dev.to/)
+    - DEV provided the tutorial to create the mobile [hamburger menu](https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci).
+1. [Wallpaper Abyss](https://wall.alphacoders.com/)
+    - Wallpaper Abyss had a wide range of fantastic Destiny-related images and it was here that I got my hero image.
+1. [Bungie](https://www.bungie.net/), [Braytech](https://bray.tech/), [Destiny Item Manager](https://app.destinyitemmanager.com/login), [Destiny Recipes](https://destinyrecipes.com/), [Destiny Reddit](https://www.reddit.com/r/DestinyTheGame/), [Destiny Companion](https://play.google.com/store/apps/details?id=com.bungieinc.bungiemobile&gl=IE), [Ishtar Commander](https://play.google.com/store/apps/details?id=com.unintuitive.IshtarCommander&gl=IE), [Destiny Trials Report](https://play.google.com/store/apps/details?id=com.plafhop.trialsreport&hl=en_IE&gl=US), [Where is Xur?](https://play.google.com/store/apps/details?id=com.crocusgames.whereisxur&gl=IE), [My name is Byf ](https://www.youtube.com/c/MynameisByf).
+    - Big credit goes out to the developers of all the sites & apps I have included on my site, each site or app provided the screenshots and descriptive text used on the site, and having them all in one location was my motivation for this site. Credit to My name is Byf who continues to create fantastic Destiny Lore videos on Youtube.
+1. [W3schools](https://www.w3schools.com/)
+    - W3schools provided the tutorial to create the ["Hide Menu on Scroll"](https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp) that has been implemented on the site. I would often use W3schools exercises as a break sometimes and gathered a lot of knowledge there as well.
+1. [DesignCourse](https://www.youtube.com/c/DesignCourse), [Kevin Powell](https://www.youtube.com/kepowob), [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified).
+    - All of the above for creating fantastic videos on HTML & CSS, a lot of knowledge was gained from hours of viewing.
+
+## Acknowledgements
+- To my amazing wife Denise who has supported me every day and kept me motivated while I have been spending long hours studying and building the site she had to look after and entertain our 5-year-old son so I think I had an easier time of it.
+- My son Alex for always making me laugh when I'm tired from a long night of study/coding.
+- To my family and friends - for being a great support and providing a lot of the user testing for me.
+- To my mentor Narender for all his guidance, support, tips, and feedback.
+- The Code Institute community on slack and my classmates its been a pleasure so far.
 
 [Back to top &uarr;](#Vanguard)
