@@ -88,6 +88,10 @@ The Best Apps Section provides the user with a nice 4 card horizontal layout wit
 <img src="./assets/readme/join-us.PNG" alt="Join Us Section">
 The Join Us Section at the beginning of the section the user will see a quote from one of the Destiny Franchise characters and a bit of incentive text to join us. There is a form below that also contains a feedback area and some custom merchandise images.
 
+### Footer
+<img src="./assets/readme/footer.PNG" alt="Footer">
+The footer is placed at the bottom of the page. It contains the custom site logo which acts as a link to the site and the social medias links displayed with icons provided by Font Awesome. There is also a small portion of text for the Copyright/Disclaimer.
+
 ## Technologies Used
 
 ### Languages Used
