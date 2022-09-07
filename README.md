@@ -92,6 +92,8 @@ The Join Us Section at the beginning of the section the user will see a quote fr
 <img src="./assets/readme/footer.PNG" alt="Footer">
 The footer is placed at the bottom of the page. It contains the custom site logo which acts as a link to the site and the social medias links displayed with icons provided by Font Awesome. There is also a small portion of text for the Copyright/Disclaimer.
 
+[Back to top &uarr;](#Vanguard)
+
 ## Technologies Used
 
 ### Languages Used
@@ -136,7 +138,7 @@ The footer is placed at the bottom of the page. It contains the custom site logo
 ## Testing
 
 ### W3 Validators
-The W3C Markup Validator and W3C CSS Validator Services were used to validate project to ensure there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate the code used in the project to ensure there were no syntax errors.
     <details><summary>W3C Markup Validator</summary>
     <img src="./assets/readme/w3-validator-html.PNG" alt="W3C Markup Validator Results">
     </details>
@@ -218,10 +220,11 @@ I have researched this issue by clicking the Learn more link in Lighthouse and t
         - The user will be able to understand what the site is about with the text that appears on the Hero Image.
         - The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the website.
     -   As a First Time Visitor, I want to be able to easily navigate throughout the site to find content specific to my needs.
-        - The site has been designed to be fluid easy to navigate. At the top of page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+        - The site has been designed to be fluid and easy to navigate. At the top of page there is a clean navigation bar, each link describes what the page they will end up at clearly.
         - The navbar dissappears when user scrolls down but re-appears when the user scrolls up to allow ease of access to the navbar.
         - The logo in the footer also acts as a link to the site so by clicking the user will be brought back to the homepage.
     -   As a First Time Visitor, I want to be able to view the site on multiple devices.
+        - Media queries have been applied to allow to site to function responsively across multiple devices.
 
 - #### Returning Visitor Goals
 
@@ -271,5 +274,28 @@ The Best Sites cards were not spacing correctly in tablet view and were grouping
 <details><summary>Fix</summary>
 I applied justify-content: space-around; to the parent flex container.
 </details>
+
+[Back to top &uarr;](#Vanguard)
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the repository [P1-Vanguard](https://github.com/seanf316/P1-Vanguard)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "Pages" Section on the left side of the page. Click "Pages".
+4. In the "Pages" section under "Source" there is a "Branch" section, click the dropdown called "None" and select "main" and click save.
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://seanf316.github.io/P1-Vanguard/) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the repository [P1-Vanguard](https://github.com/seanf316/P1-Vanguard)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
 
 [Back to top &uarr;](#Vanguard)
