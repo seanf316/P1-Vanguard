@@ -21,7 +21,7 @@
     text-align: justify;
 }
 
-.best-sites__row {
+.best-sites__container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;

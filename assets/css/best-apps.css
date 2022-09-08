@@ -23,7 +23,7 @@
     margin-bottom: 1rem;
 }
 
-.best-apps__row {
+.best-apps__container {
     display: flex;
     justify-content: space-around;
     padding: 2rem 0;
@@ -129,7 +129,7 @@
 
 @media only screen and (max-width: 2000px) {
 
-    .best-apps__row {
+    .best-apps__container {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;

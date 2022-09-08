@@ -28,7 +28,7 @@
     text-align: justify;
 }
 
-.join-us__row {
+.join-us__container {
     display: flex;
     justify-content: center;
     justify-content: space-between;
@@ -223,7 +223,7 @@
     
     /* Join Us */
 
-    .join-us__row {
+    .join-us__container {
         flex-direction: column;
         justify-content: center;
         justify-content: space-between;
