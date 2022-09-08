@@ -86,11 +86,11 @@ This is my first portfolio project for [Code Institute](https://codeinstitute.ne
 <img src="./assets/readme/tablet-mobile-nav.PNG" alt="Responsive Navbar">
 <img src="./assets/readme/hamburger-nav.PNG" alt="Responsive Navbar Opened">
 <img src="./assets/readme/hamburger-nav-landscape.PNG" alt="Responsive Navbar Landscape Opened">
-The navigation bar is present on the homepage and hides when scrolling down but appears when scrolling up. It is easily noticeable, intuitive, and easy to use. On the left side is the site Logo with the navigation links to the right, the navbar is responsive and changes to the common hamburger menu style when moving to Tablet or Mobile devices. Navlinks flex direction was changed in a media query for mobile landscape.
+The navigation bar is present on the homepage and hides when scrolling down but appears when scrolling up. The user will find that it is easily noticeable, intuitive, and easy to use. On the left side is the site Logo with the navigation links to the right, the navbar is responsive and changes to the common hamburger menu style when moving to Tablet or Mobile devices. Navlinks flex direction was changed in a media query for mobile landscape.
 
 ### About Vanguard Section
 <img src="./assets/readme/about-vanguard.PNG" alt="About Vanguard Section">
-The About Vanguard Section consists of a mission statement along with some flex boxes containing snippets of info from the game. Linear Gradient colors were used here to provide a bit of vibrancy to the boxes and a scale-up-down animation for a pleasing experience.
+The About Vanguard Section consists of a mission statement along with some flex boxes containing snippets of info from the game. Linear Gradient colors were used here to provide a bit of vibrancy to the boxes and a scale-up-down animation for a pleasing experience. The mission statement is clear and should provide the user with a clear description of what the site is about.
 
 ### Destiny's Story for Beginners Section
 <img src="./assets/readme/about-destiny.PNG" alt="Destiny's Story for Beginners Section">
@@ -106,7 +106,7 @@ The Best Apps Section provides the user with a nice 4-card horizontal layout wit
 
 ### Join Us Section
 <img src="./assets/readme/join-us.PNG" alt="Join Us Section">
-In the Join Us Section at the beginning of the section, the user will see a quote from one of the Destiny Franchise characters and a bit of incentive text to join us. There is a form below that also contains a feedback area and some custom merchandise images.
+In the Join Us Section at the beginning of the section, the user will see a quote from one of the Destiny Franchise characters and a bit of incentive text to join us. There is a form below that also contains a feedback area which the user can avail of to let us know what they would like to see in future updates. There are also some custom merchandise images which the user can possibly win by joining up.
 
 ### Thank You Message
 <img src="./assets/readme/thank-you.PNG" alt="Thank You Message">
@@ -114,7 +114,7 @@ When the user clicks Join Us on the form they are met with a Thank You message a
 
 ### Footer
 <img src="./assets/readme/footer.PNG" alt="Footer">
-The footer is placed at the bottom of the page. It contains the custom site logo which acts as a link to the site and the social media links displayed with icons provided by Font Awesome. There is also a small portion of text for the Copyright/Disclaimer.
+The footer is placed at the bottom of the page. It contains the custom site logo which acts as a link to the site and the social media links displayed with icons provided by Font Awesome. There is also a small portion of text for the Copyright/Disclaimer. This is where the user can click on a social media link and reach out to the developer for news and updates.
 
 [Back to top &uarr;](#Vanguard)
 
