@@ -10,6 +10,7 @@ Developed by Sean Finn.
 
 ## Table of Content
 1. [Project Goals](#project-goals)
+1. [Target Audience](#target-audience)
 1. [User Experience (UX)](#user-experience-ux)
     - [User stories](#user-stories)
     - [Design](#design)
@@ -31,6 +32,10 @@ Developed by Sean Finn.
 ## Project Goals
 
 This is my first portfolio project for [Code Institute](https://codeinstitute.net/) and my goal with this project is to display my newly acquired HTML & CSS skills. I wanted to design an aesthetically pleasing and responsive website that provides the best possible sites and apps to help any new Guardian who decides to join the Destiny game player base.
+
+## Target Audience
+
+The target audience for this site is new and existing players of the Destiny Franchise, Destiny can be overwhelming for new players so having all the best Destiny-related apps in one location should provide a huge benefit to the player. It should also benefit existing players who may not be aware of these sites and apps.
 
 ## User Experience (UX)
 
