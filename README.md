@@ -30,7 +30,7 @@ Developed by Sean Finn.
 
 ## Project Goals
 
-This is my first portfolio project for [Code Institute](https://codeinstitute.net/) and my goal with this project is to display my newly acquired HTML & CSS skills. I wanted to design an aesthetically pleasing and responsive website site that provides the best possible sites and apps to help any new Guardian who decides to join the Destiny game player base.
+This is my first portfolio project for [Code Institute](https://codeinstitute.net/) and my goal with this project is to display my newly acquired HTML & CSS skills. I wanted to design an aesthetically pleasing and responsive website that provides the best possible sites and apps to help any new Guardian who decides to join the Destiny game player base.
 
 ## User Experience (UX)
 
