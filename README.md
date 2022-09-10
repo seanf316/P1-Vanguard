@@ -1,6 +1,6 @@
 # Vanguard
 
-Vanguard is a website aimed at players of the Destiny franchise. It is a single scrollable page website and has been designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
+Vanguard is a website aimed at new and existing players of the Destiny franchise. It is a single scrollable page website and has been designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
 
 Developed by Sean Finn.
 
@@ -32,7 +32,7 @@ Developed by Sean Finn.
 
 ## Project Goals
 
-This is my first portfolio project for [Code Institute](https://codeinstitute.net/) and my goal with this project is to display my newly acquired HTML & CSS skills. I wanted to design an aesthetically pleasing and responsive website that provides the best possible sites and apps to help any new Guardian who decides to join the Destiny game player base.
+This is my first portfolio project for [Code Institute](https://codeinstitute.net/) and my goal with this project is to display my newly acquired HTML & CSS skills. I wanted to design an aesthetically pleasing and responsive website that provides the best possible sites and apps to help any new or existing Guardian who decides to join or is already part of the Destiny game player base.
 
 ## Target Audience
 
